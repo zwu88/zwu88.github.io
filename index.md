@@ -17,13 +17,14 @@ My research interests lie in the intersection of machine learning, scientific co
 - **[Sep 2025]** Joined the *<span style="color: var(--global-theme-color);">University of Pennsylvania</span>* as a Research Assistant (surpervised by Prof. *<span style="color: var(--global-theme-color);">Paris Perdikaris</span>*).
 - **[Sep 2025]** Invited seminar at the *<span style="color: var(--global-theme-color);">University of Pennsylvania</span>* on my research (host: Prof.  *<span style="color: var(--global-theme-color);">Paris Perdikaris</span>*).
 - **[Aug 2025]** Invited talk at *<span style="color: var(--global-theme-color);">Yale University</span>* on *<span style="color: var(--global-theme-color);">TANTE</span>* (host: Prof. *<span style="color: var(--global-theme-color);">Lu Lu</span>*).
-- **[Jul 2025]** *<span style="color: var(--global-theme-color);">COAST: Intelligent Time-Adaptive Neural Operators</span>* accepted to **AI4Math@ICML 2025** (*Vancouver, Canada*).
+- **[Jul 2025]** *<span style="color: var(--global-theme-color);">COAST: Intelligent Time-Adaptive Neural Operators</span>* accepted to [AI4Math@ICML 2025](https://openreview.net/forum?id=cz99ALd3yv) (*Vancouver, Canada*).
 - **[Sep 2025]** Posted *<span style="color: var(--global-theme-color);">TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion</span>* on [arXiv](https://arxiv.org/abs/2502.08574).
 - **[Apr 2025]** Invited talk at *<span style="color: var(--global-theme-color);">Yale University</span>* on *<span style="color: var(--global-theme-color);">COAST</span>* (host: Prof. *<span style="color: var(--global-theme-color);">Lu Lu</span>*).
 - **[Feb 2025]** Posted *<span style="color: var(--global-theme-color);">COAST: Intelligent Time-Adaptive Neural Operators</span>* on arXiv.
 - **[Nov 2024]** Received the *<span style="color: var(--global-theme-color);">Tan Siu Lin Oversea Exchange Endowment For Undergraduates</span>* (top-10 awardees annually).
-- **[Aug 2025]** Presentation at *<span style="color: var(--global-theme-color);">Yale University</span>* on my research proposal (host: by Prof. *<span style="color: var(--global-theme-color);">David van Dijk</span>*).
-- **[Aug 2025]** Joined *<span style="color: var(--global-theme-color);">Yale University</span>* as a Research Assistant (surpervised by Prof. *<span style="color: var(--global-theme-color);">Lu Lu</span>* and Prof. *<span style="color: var(--global-theme-color);">David van Dijk</span>*).
+- **[Oct 2024]** *<span style="color: var(--global-theme-color);">Predicting Microbial Community Productivity Based-On Genomic Sequences with Graph Neural Network</span>* accepted to [CISP-BMEI 2024](https://ieeexplore.ieee.org/abstract/document/10906150).
+- **[Aug 2024]** Presentation at *<span style="color: var(--global-theme-color);">Yale University</span>* on my research proposal (host: Prof. *<span style="color: var(--global-theme-color);">David van Dijk</span>*).
+- **[Aug 2024]** Joined *<span style="color: var(--global-theme-color);">Yale University</span>* as a Research Assistant (surpervised by Prof. *<span style="color: var(--global-theme-color);">Lu Lu</span>* and Prof. *<span style="color: var(--global-theme-color);">David van Dijk</span>*).
 
 {% include_relative _includes/publications.md %}
 
