@@ -11,7 +11,7 @@ main:
     code: https://github.com/zwu88/TANTE
     # page: https://github.com/zwu88/TANTE
     bibtex: ./assets/bibs/tante.txt
-    image: ./assets/img/tante.gif
+    # image: ./assets/img/tante.gif
     # poster: ./assets/posters/CaLMFlow_NYAS_Poster.pdf
     # blog: https://research.google/blog/teaching-machines-the-language-of-biology-scaling-large-language-models-for-next-generation-single-cell-analysis/
     notes: Preprint
@@ -30,7 +30,7 @@ main:
     pdf: https://arxiv.org/pdf/2509.24117
     # code: 
     bibtex: ./assets/bibs/geofunflow.txt
-    image: ./assets/img/geofunflow.jpg
+    # image: ./assets/img/geofunflow.jpg
     tags: ["Operator Learning", "Flow Matching", "PDEs", "Inverse Problems"]
     selected: true
     summary: "We introduce GeoFunFlow, a geometric diffusion framework that solves PDE inverse problems on complex geometries. GeoFunflow combines a novel geometric functional autoencoder and a latent diffusion model trained via rectified flow, achieving SOTA reconstruction accuracy over complex geometries across benchmarks."
