@@ -17,8 +17,8 @@ github_link: https://github.com/zwu88
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/avatars/formal_head.jpg
-favicon: ./assets/img/avatars/sydney_sea.jpg
+avatar: ./assets/img/avatars/sydney_sea.jpg
+favicon: ./assets/img/avatars/formal_head.jpg
 favicon_dark: ./assets/img/avatars/conduct.jpg
 
 # Footnote
