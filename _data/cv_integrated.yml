@@ -6,16 +6,11 @@ contact:
   github: https://github.com/zwu88
 research:
   items:
-  - title: AI for Science
+  - title: AI for Science, Scientific Machine Learning, Operator Learning, Physics-informed
+      Machine Learning
     description: ''
-  - title: Scientific Machine Learning
-    description: ''
-  - title: Operator Learning
-    description: ''
-  - title: Physics-informed Machine Learning
-    description: ''
-  latex: '\textbf{AI for Science}: , \textbf{Scientific Machine Learning}: , \textbf{Operator
-    Learning}: , \textbf{Physics-informed Machine Learning}: '
+  latex: '\textbf{AI for Science, Scientific Machine Learning, Operator Learning,
+    Physics-informed Machine Learning}: '
 education:
 - institution: Yale University
   location: New Haven, CT
