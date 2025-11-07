@@ -4,15 +4,23 @@ layout: homepage
 
 ## About Me
 
-I'm a forth-year undergraduate student at [Yuanpei College](https://yuanpei.pku.edu.cn/en/aboutyuanpei/collegeprofile/index.htm), [Peking University](https://english.pku.edu.cn/). From August 2024 to October 2025, I worked as a research assistant at Yale University under the supervision of Prof. Lu Lu and Prof. David van Dijk, completing two projects on operator learning. Since September 2025, I have been working with Prof. Paris Perdikaris at the University of Pennsylvania, leading a self-initiated research project.
+I'm a forth-year undergraduate student at [Yuanpei College](https://yuanpei.pku.edu.cn/en/aboutyuanpei/collegeprofile/index.htm), [Peking University](https://english.pku.edu.cn/). From August 2024 to October 2025, I worked as a research assistant at Yale University under the supervision of Prof. [Lu Lu](https://lugroup.yale.edu/) and Prof. [David van Dijk](https://www.vandijklab.org/), completing two projects on operator learning. Since September 2025, I have been working with Prof. [Paris Perdikaris](https://ai4science.seas.upenn.edu/) at the University of Pennsylvania, leading a self-initiated research project.
 
 My research interests lie in the intersection of machine learning, scientific computing, and computational physics. I am particularly interested in developing scalable and robust algorithms for solving partial differential equations, and leveraging these algorithms to solve challenging problems in science and engineering.
 
-## News
-- **[Sep 2025]** Our paper *<span style="color: var(--global-theme-color);">Non-Markovian Discrete Diffusion with Causal Language Models</span>* is accepted to **NeurIPS 2025** (*San Diego, CA*).
-- **[Jul 2025]** Our paper *<span style="color: var(--global-theme-color);">COAST: Intelligent Time-Adaptive Neural Operators</span>* is accepted to **AI4MATH@ICML 2025** (*Vancouver, Canada*).
-- **[Jan 2025]** I received *<span style="color: var(--global-theme-color);">the Fan Family Fellowship</span>* of Yale University.
-- **[Jan 2025]** Our paper *<span style="color: var(--global-theme-color);">Intelligence at the Edge of Chaos</span>* is accepted to **ICLR 2025** (*Singapore*).
+## Timeline
+- **[Oct 2025]** Our paper *<span style="color: var(--global-theme-color);">TANTE</span>* is submitted to [*Journal of Computational Physics*](https://track.authorhub.elsevier.com/?uuid=58e8c1e5-4918-4bd8-a023-0b4f7cf889d6).
+- **[Sep 2025]** The code for *<span style="color: var(--global-theme-color);">TANTE</span>* is [open-source](https://github.com/zwu88/TANTE) now.
+- **[Sep 2025]** Our paper *<span style="color: var(--global-theme-color);">GeoFunFlow: Geometric Function Flow Matching for Inverse Operator Learning over Complex Geometries</span>* is available on [arXiv](https://arxiv.org/abs/2509.24117).
+- **[Sep 2025]** I join the *<span style="color: var(--global-theme-color);">[Predictive Intelligence Lab](https://ai4science.seas.upenn.edu/)</span>* at the University of Pennsylvania as a research assistant, surpervised by Prof. Paris Perdikaris.
+- **[Sep 2025]** I gave a seminar at the *<span style="color: var(--global-theme-color);">University of Pennsylvania</span>* on my researches about operator learning. Thanks for the invitation of Prof. Paris Perdikaris.
+- **[Aug 2025]** I gave a presentation at the *<span style="color: var(--global-theme-color);">[Lu Group](https://lugroup.yale.edu/), Yale University</span>* on my paper *TANTE*. Thanks for the invitation of Prof. Lu Lu.
+- **[Jul 2025]** Our paper *<span style="color: var(--global-theme-color);">COAST: Intelligent Time-Adaptive Neural Operators</span>* is accepted to **AI4Math@ICML 2025** (*Vancouver, Canada*).
+- **[Sep 2025]** Our paper *<span style="color: var(--global-theme-color);">TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion</span>* is available on [arXiv](https://arxiv.org/abs/2502.08574).
+- **[Apr 2025]** I gave a presentation at the *<span style="color: var(--global-theme-color);">[Lu Group](https://lugroup.yale.edu/), Yale University</span>* on my paper *COAST*. Thanks for the invitation of Prof. Lu Lu.
+- **[Feb 2025]** Our paper *<span style="color: var(--global-theme-color);">COAST: Intelligent Time-Adaptive Neural Operators</span>* is available on *arXiv*.
+- **[Nov 2024]** I received the *<span style="color: var(--global-theme-color);">Tan Siu Lin Oversea Exchange Endowment For Undergraduates</span>* *(top 10 applicants per year)*.
+- **[Aug 2025]** I join *<span style="color: var(--global-theme-color);">Yale University</span>* as a research assistant, surpervised by Prof. Lu Lu and Prof. David van Dijk.
 
 {% include_relative _includes/selected_publications.md %}
 {% include_relative _includes/publications.md %}
