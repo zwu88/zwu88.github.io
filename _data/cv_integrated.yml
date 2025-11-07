@@ -1,8 +1,8 @@
 name: Zhikai Wu
 contact:
-  email_display: zhikaiwu@seas.upenn.edu
-  email_link: zhikaiwu@seas.upenn.edu
-  homepage: https://sizhuang.org
+  email_display: zhikai.wu@yale.edu
+  email_link: zhikai.wu@yale.edu
+  homepage: https://zwu88.github.io
   github: https://github.com/zwu88
 research:
   items:
@@ -35,18 +35,18 @@ publications:
     Learning over Complex Geometries'
   title_html: 'GeoFunFlow: Geometric Function Flow Matching for Inverse Operator Learning
     over Complex Geometries'
-  authors_latex: S. Wang*, Z. Wu*, D. van Dijk, L. Lu
-  authors_html: S. Wang*, Z. Wu*, D. van Dijk, L. Lu
-  venue_latex: In Review
-  venue_html: In Review
+  authors_latex: S. Wang*, \underline{\textbf{Z. Wu}}*, et al.
+  authors_html: S. Wang*, <span class="cv-me">Z. Wu</span>*, et al.
+  venue_latex: Under Review
+  venue_html: Under Review
 - title: Predicting Microbial Community Productivity Based-On Genomic Sequences with
     Graph Neural Network
   title_latex: Predicting Microbial Community Productivity Based-On Genomic Sequences
     with Graph Neural Network
   title_html: Predicting Microbial Community Productivity Based-On Genomic Sequences
     with Graph Neural Network
-  authors_latex: J. Hou, P. X. Geng, Z. Wu, W. Fan, H. Zhu
-  authors_html: J. Hou, P. X. Geng, Z. Wu, W. Fan, H. Zhu
+  authors_latex: J. Hou, P. X. Geng, \underline{\textbf{Z. Wu}}, et al.
+  authors_html: J. Hou, P. X. Geng, <span class="cv-me">Z. Wu</span>, et al.
   venue_latex: 2024 17th International Congress on Image and Signal Processing, BioMedical
     Engineering and Informatics
   venue_html: 2024 17th International Congress on Image and Signal Processing, BioMedical
@@ -54,17 +54,17 @@ publications:
 - title: 'COAST: Intelligent Time-Adaptive Neural Operators'
   title_latex: 'COAST: Intelligent Time-Adaptive Neural Operators'
   title_html: 'COAST: Intelligent Time-Adaptive Neural Operators'
-  authors_latex: Z. Wu, S. Zhang, \underline{\textbf{S. He}}, et al.
-  authors_html: Z. Wu, S. Zhang, <span class="cv-me">S. He</span>, et al.
+  authors_latex: \underline{\textbf{Z. Wu}}, et al.
+  authors_html: <span class="cv-me">Z. Wu</span>, et al.
   venue_latex: ICML 2025 Workshop on AI4Math (Poster)
   venue_html: ICML 2025 Workshop on AI4Math (Poster)
 - title: 'TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion'
   title_latex: 'TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion'
   title_html: 'TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion'
-  authors_latex: Z. Wu, S. Wang, S. Zhang, \underline{\textbf{S. He}}, et al.
-  authors_html: Z. Wu, S. Wang, S. Zhang, <span class="cv-me">S. He</span>, et al.
-  venue_latex: In Review
-  venue_html: In Review
+  authors_latex: \underline{\textbf{Z. Wu}}, et al.
+  authors_html: <span class="cv-me">Z. Wu</span>, et al.
+  venue_latex: Under Review
+  venue_html: Under Review
 honors:
 - name: Fan Family Fellowship
   institution: Yale University
