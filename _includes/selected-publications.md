@@ -14,7 +14,8 @@
     {% if link.alt_title %}{{ link.alt_title }}{% else %}{{ link.title }}{% endif %}
   </div>
 </div>
-<div class="row pub-row">
+  <!-- <div class="row pub-row"> -->
+<div class="row pub-row" style="display:block;">
   <!-- Text left, image right -->
   <div class="col-sm-9" style="position: relative;padding-right: 20px;padding-left: 15px;">
       {% if link.summary %}
