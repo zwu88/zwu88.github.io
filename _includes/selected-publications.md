@@ -16,7 +16,7 @@
 </div>
 <div class="row pub-row">
   <!-- Text left, image right -->
-  <div class="col-sm-7" style="position: relative;padding-right: 20px;padding-left: 15px;">
+  <div class="col-sm-8" style="position: relative;padding-right: 20px;padding-left: 15px;">
       <!-- <div class="title" style="font-size: 1.3em; font-weight: 600; color: #043361;">{% if link.alt_title %}{{ link.alt_title }}{% else %}{{ link.title }}{% endif %}</div> -->
       {% if link.summary %}
       <div class="abstract" style="margin-top: 10px; font-size: 1.05em; line-height: 1.5; color: #666; font-style: italic;">{{ link.summary }}{% if link.blog %} Read more about this work in our <a href="{{ link.blog }}" target="_blank" style="color: #39c; text-decoration: none;">Google Research blog post</a>.{% endif %} — <a href="{{ link.pdf }}" target="_blank" style="color: #39c; font-weight: bold; text-decoration: none;">{{ link.conference }}</a></div>
