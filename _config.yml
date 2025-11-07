@@ -2,7 +2,7 @@
 title: Zhikai Wu
 position: Senior Undergraduate Student
 affiliation: Yuanpei College, Peking University
-email: "zhikaiwu@seas.upenn.edu | zhikai.wu@yale.edu"
+email: "zhikaiwu@seas.upenn.edu"
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
@@ -17,8 +17,8 @@ github_link: https://github.com/zwu88
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/avatars/sydney_sea.jpg
-favicon: ./assets/img/avatars/formal_head.jpg
+avatar: ./assets/img/avatars/formal_head.jpg
+favicon: ./assets/img/avatars/sydney_sea.jpg
 favicon_dark: ./assets/img/avatars/conduct.jpg
 
 # Footnote

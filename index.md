@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I'm a forth-year undergraduate student at [Yuanpei College](https://yuanpei.pku.edu.cn/en/aboutyuanpei/collegeprofile/index.htm), [Peking University](https://english.pku.edu.cn/). From August 2024, I worked with Prof. Lu Lu and Prof. David van Dijk at Yale University as a visiting student.
+I'm a forth-year undergraduate student at [Yuanpei College](https://yuanpei.pku.edu.cn/en/aboutyuanpei/collegeprofile/index.htm), [Peking University](https://english.pku.edu.cn/). From August 2024 to October 2025, I worked as a research assistant at Yale University under the supervision of Prof. Lu Lu and Prof. David van Dijk, completing two projects on operator learning. Since September 2025, I have been working with Prof. Paris Perdikaris at the University of Pennsylvania, leading a self-initiated research project.
 
 My research interests lie in the intersection of machine learning, scientific computing, and computational physics. I am particularly interested in developing scalable and robust algorithms for solving partial differential equations, and leveraging these algorithms to solve challenging problems in science and engineering.
 
