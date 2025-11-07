@@ -34,7 +34,7 @@
   </div>
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if link.image %} 
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="display:block; width:120; height:auto;">
+    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="display:block; width:180; height:auto;">
     <!-- <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=60%"> -->
     {% endif %}
   </div>
