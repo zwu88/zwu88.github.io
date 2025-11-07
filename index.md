@@ -6,9 +6,7 @@ layout: homepage
 
 I'm a forth-year undergraduate student at [Yuanpei College](https://yuanpei.pku.edu.cn/en/aboutyuanpei/collegeprofile/index.htm), [Peking University](https://english.pku.edu.cn/). From August 2024, I worked with Prof. Lu Lu and Prof. David van Dijk at Yale University as a visiting student.
 
-I work on the intersection of machine learning, mathematics, and physics:
-
-**<span style="color: var(--global-theme-color); font-weight: bold;">AI for Science, Scientific Machine Learning, Operator Learning, Physics-informed Machine Learning</span>** 
+My research interests lie in the intersection of machine learning, scientific computing, and computational physics. I am particularly interested in developing scalable and robust algorithms for solving partial differential equations, and leveraging these algorithms to solve challenging problems in science and engineering.
 
 ## News
 - **[Sep 2025]** Our paper *<span style="color: var(--global-theme-color);">Non-Markovian Discrete Diffusion with Causal Language Models</span>* is accepted to **NeurIPS 2025** (*San Diego, CA*).

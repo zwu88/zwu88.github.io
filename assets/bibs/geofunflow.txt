@@ -1,0 +1,9 @@
+@misc{wang2025geofunflowgeometricfunctionflow,
+      title={GeoFunFlow: Geometric Function Flow Matching for Inverse Operator Learning over Complex Geometries}, 
+      author={Sifan Wang and Zhikai Wu and David van Dijk and Lu Lu},
+      year={2025},
+      eprint={2509.24117},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2509.24117}, 
+}

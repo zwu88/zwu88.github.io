@@ -1,5 +1,5 @@
 <h2 id="publications" style="margin: 2px 0px -15px;">Complete Publication List</h2>
-<p style="font-size: 0.9em; margin-top: 15px; margin-bottom: -10px;"><i>(*: Equal Contribution; Last Updated: Sep 2025)</i></p>
+<p style="font-size: 0.9em; margin-top: 15px; margin-bottom: -10px;"><i>(*Equal Contribution)</i></p>
 
 <!-- Tag Filtering System -->
 <div class="tag-filters">
@@ -99,7 +99,7 @@
       <a href="javascript:void(0)" onclick="toggleBibtex('bibtex-{{ forloop.index }}', '{{ link.bibtex }}')" class="btn btn-sm z-depth-0" role="button" style="font-size:11px;">BibTex</a>
       {% endif %}
       {% if link.pdf %} 
-      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:11px;">PDF</a>
+      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:11px;">Paper</a>
       {% endif %}
       {% if link.blog %} 
       <a href="{{ link.blog }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:11px;">Blog</a>
