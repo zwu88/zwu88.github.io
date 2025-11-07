@@ -21,9 +21,9 @@ def load_existing_data():
         # If no existing data, create minimal fallback
         print("⚠️  No existing data found, creating minimal fallback...")
         data = {
-            "name": "Sizhuang He",
-            "affiliation": "Yale University",
-            "email": "sizhuang.he@yale.edu",
+            "name": "Zhikai Wu",
+            "affiliation": "Peking University",
+            "email": "z.wu@stu.pku.edu.cn",
             "citedby": 0,
             "citedby5y": 0,
             "hindex": 0,
@@ -40,9 +40,9 @@ def load_existing_data():
         print(f"❌ Error loading existing data: {e}")
         # Return minimal fallback if we can't load existing data
         return {
-            "name": "Sizhuang He",
-            "affiliation": "Yale University",
-            "email": "sizhuang.he@yale.edu",
+            "name": "Zhikai Wu",
+            "affiliation": "Peking University",
+            "email": "z.wu@stu.pku.edu.cn",
             "citedby": 0,
             "citedby5y": 0,
             "hindex": 0,

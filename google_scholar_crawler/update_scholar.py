@@ -130,9 +130,9 @@ def fetch_with_requests(scholar_id="pez-fEUAAAAJ"):
                 }
             
             return {
-                "name": "Shiyang Zhang",
-                "affiliation": "Yale University",
-                "email": "harryzhang957@gmail.com",
+                "name": "Zhikai Wu",
+                "affiliation": "Peking University",
+                "email": "z.wu@stu.pku.edu.cn",
                 "citedby": citations,
                 "hindex": hindex,
                 "i10index": i10index,

@@ -44,9 +44,9 @@ def generate_scholar_data():
     
     # Create the main data structure
     data = {
-        "name": "Shiyang Zhang",
-        "affiliation": "Yale University",
-        "email": "harryzhang957@gmail.com",
+        "name": "Zhikai Wu",
+        "affiliation": "Peking University",
+        "email": "z.wu@stu.pku.edu.cn",
         "citedby": total_citations,
         "citedby5y": total_citations,  # Simplified for now
         "hindex": 0,  # Calculate if needed

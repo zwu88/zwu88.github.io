@@ -97,7 +97,7 @@ def abbreviate_name(full_name):
     last_name = ' '.join(last_parts)
     return ' '.join(initials + [last_name])
 
-def format_authors(authors_str, my_name="Sizhuang He", mode="latex"):
+def format_authors(authors_str, my_name="Zhikai Wu", mode="latex"):
     """Format authors list with abbreviation and highlighting"""
     authors_str = html.unescape(authors_str or "")
     authors_str = authors_str.replace('<strong>', '').replace('</strong>', '')
@@ -221,7 +221,7 @@ def build_cv_data():
     service_yaml = load_yaml('_data/service.yml')
 
     email_link = config['email'].replace(' (at) ', '@')
-    homepage = config.get('url', 'https://sizhuang.org')
+    homepage = config.get('url', 'https://zwu88.github.io')
     github_link = config.get('github_link', '')
 
     research_items = []
@@ -331,7 +331,7 @@ def generate_latex_content(cv):
 % Author : Jake Gutierrez
 % Based off of: https://github.com/sb2nov/resume
 % License : MIT
-% Source: https://github.com/SizhuangHe/sizhuanghe.github.io
+% Source: https://github.com/zwu88/zwu88.github.io
 %------------------------
 
 \documentclass[letterpaper,11pt]{article}

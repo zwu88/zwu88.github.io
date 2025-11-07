@@ -5,8 +5,8 @@ main:
     paper_id: "6aaQRzoAAAAJ:u5HHmVD_uO8C"
     authors: <b><u>Zhikai Wu</u></b>, Sifan Wang, Shiyang Zhang, Sizhuang He, Min Zhu, Anran Jiao, Lu Lu, and David van Dijk
     date: Oct 2025
-    conference_short: In Review
-    conference: In Review
+    conference_short: Under Review
+    conference: Under Review
     pdf: https://arxiv.org/pdf/2502.08574
     code: https://github.com/zwu88/TANTE
     # page: https://github.com/zwu88/TANTE
@@ -25,15 +25,15 @@ main:
     paper_id: "6aaQRzoAAAAJ:geHnlv5EZngC"
     authors: Sifan Wang<sup>*</sup>, <b><u>Zhikai Wu<sup>*</sup></u></b>, David van Dijk, and Lu Lu
     date: Sep 2025
-    conference_short: In Review
-    conference: In Review
+    conference_short: Under Review
+    conference: Under Review
     pdf: https://arxiv.org/pdf/2509.24117
     # code: 
     bibtex: ./assets/bibs/geofunflow.txt
     image: ./assets/img/geofunflow.jpg
     tags: ["Operator Learning", "Flow Matching", "PDEs", "Inverse Problems"]
     selected: true
-    summary: "We introduce GeoFunFlow, a geometric diffusion framework that solves PDE inverse problems on complex geometries. GeoFunflow combines a novel geometric functional autoencoder (GeoFAE) and a latent diffusion model trained via rectified flow. GeoFunflow achieves SOTA reconstruction accuracy over complex geometries across five standard benchmarks."
+    summary: "We introduce GeoFunFlow, a geometric diffusion framework that solves PDE inverse problems on complex geometries. GeoFunflow combines a novel geometric functional autoencoder (GeoFAE) and a latent diffusion model trained via rectified flow, achieving SOTA reconstruction accuracy over complex geometries across five standard benchmarks."
     full_abstract: "Inverse problems governed by partial differential equations (PDEs) are crucial in science and engineering. They are particularly challenging due to ill-posedness, data sparsity, and the added complexity of irregular geometries. Classical PDE-constrained optimization methods are accurate and robust but are computationally expensive, especially when repeated posterior sampling is required. Learning-based approaches improve efficiency and scalability, yet most are designed for regular domains or focus primarily on forward modeling. To fill this gap, we introduce GeoFunFlow, a geometric diffusion framework for inverse problems on complex geometries. GeoFunflow combines a novel geometric functional autoencoder (GeoFAE) and a latent diffusion model trained via rectified flow. GeoFAE employs a Perceiver module to process unstructured meshes of varying sizes and produces continuous reconstructions of solution fields, while the diffusion model enables posterior sampling from sparse and noisy data. Across five standard benchmarks, GeoFunflow achieves state-of-the-art reconstruction accuracy over complex geometries, provides calibrated uncertainty quantification, and delivers efficient inference compared to operator-learning and diffusion baselines." 
 
   - title: "COAST: Intelligent Time-Adaptive Neural Operators"
@@ -45,12 +45,12 @@ main:
     pdf: https://openreview.net/forum?id=cz99ALd3yv
     # code: https://github.com/MrGiovanni/ContinualLearning
     bibtex: ./assets/bibs/coast.txt
-    image: ./assets/img/coast.png
+    # image: ./assets/img/coast.png
     # poster: ./assets/posters/CaLMFlow_NYAS_Poster.pdf
     notes: Accepted to AI4MATH Workshop at ICML 2025 as a poster
     tags: ["SciML", "Operator Learning", "Neural PDE Solver"]
     selected: false
-    full_abstract: "Operator learning for time-dependent partial differential equations (PDEs) has seen rapid progress in recent years, enabling efficient approximation of complex spatiotemporal dynamics. However, most existing methods rely on fixed time step sizes during rollout, which limits their ability to adapt to varying temporal complexity and often leads to error accumulation. To address this gap, we propose the Time-Adaptive Transformer with Neural Taylor Expansion (TANTE), a novel operator-learning framework that produces continuous-time predictions with adaptive step sizes. TANTE predicts future states by performing a Taylor expansion at the current state, where neural networks learn both the higher-order temporal derivatives and the local radius of convergence. This allows the model to dynamically adjust its rollout based on the local behavior of the solution, thereby reducing cumulative error and improving computational efficiency. We demonstrate the effectiveness of TANTE across a wide range of PDE benchmarks, achieving superior accuracy and adaptability compared to fixed-step baselines, delivering accuracy gains of 10-50% and speed-ups of 30-80% at inference."
+    full_abstract: "Operator learning for time-dependent partial differential equations (PDEs) has seen rapid progress, enabling efficient modeling of complex spatiotemporal dynamics. However, most existing approaches use fixed time step sizes during rollout, limiting their ability to adapt to varying temporal complexity and leading to error accumulation. We introduce COAST (Causal Operator with Adaptive Solver Transformer), a novel operator learning framework that integrates causal attention with adaptive time stepping. COAST jointly predicts the next step size and the corresponding future system state. The learned step sizes dynamically adapt both across and within trajectories—assigning smaller step sizes to regions with rapidly changing dynamics and larger steps to smoother transitions. We evaluate the COAST across a range of dynamical systems, which consistently outperforms state-of-the-art methods in both accuracy and efficiency, demonstrating the potential of causal transformers for adaptive operator learning in time-dependent systems."
 
   - title: "Predicting Microbial Community Productivity Based-On Genomic Sequences with Graph Neural Network"
     paper_id: "6aaQRzoAAAAJ:QIV2ME_5wuYC"
@@ -60,10 +60,10 @@ main:
     conference: 2024 17th International Congress on Image and Signal Processing, BioMedical Engineering and Informatics
     pdf: https://ieeexplore.ieee.org/abstract/document/10906150
     # code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: ./assets/bibs/bmei.txt
-    image: ./assets/img/bmei.png
+    bibtex: ./assets/bibs/gcpnet.txt
+    # image: ./assets/img/gcpnet.png
     # poster: ./assets/posters/CaLMFlow_NYAS_Poster.pdf
     # notes: Accepted to AI4MATH Workshop at ICML 2025 as a poster
-    tags: ["Neural Operators", "Operator Learning"]
+    tags: ["GNNs", "Signal processing" ,"Predictive Models", "Bioinformatics"]
     selected: false
-    full_abstract: "Operator learning for time-dependent partial differential equations (PDEs) has seen rapid progress in recent years, enabling efficient approximation of complex spatiotemporal dynamics. However, most existing methods rely on fixed time step sizes during rollout, which limits their ability to adapt to varying temporal complexity and often leads to error accumulation. Here, we propose the Time-Adaptive Transformer with Neural Taylor Expansion (TANTE), a novel operator-learning framework that produces continuous-time predictions with adaptive step sizes. TANTE predicts future states by performing a Taylor expansion at the current state, where neural networks learn both the higher-order temporal derivatives and the local radius of convergence. This allows the model to dynamically adjust its rollout based on the local behavior of the solution, thereby reducing cumulative error and improving computational efficiency. We demonstrate the effectiveness of TANTE across a wide range of PDE benchmarks, achieving superior accuracy and adaptability compared to fixed-step baselines, delivering accuracy gains of 60–80% and speed-ups of 30–40% at inference time. The code is publicly available at https://github.com/zwu88/TANTE for transparency and reproducibility."
+    full_abstract: "Artificial microbial community design has gained increasing attention due to its economic and environmental benefits. However, it is challenging considering the complex microbial interactions and emergent properties arising from metabolic networks. Although flux balance analysis (FBA), based on genome-scale metabolic models (GEMs), is a well-known approach for simulating community phenotypes, its inefficiency in handling communities with a large number of functional genes limits its utility. In this paper, we introduce a novel graph neural network model that incorporates growth-coupling effects to predict the productivity of microbial communities, which is impractical for prior techniques. Utilizing 83 high-quality bacterial GEMs, we trained and tested our model on a large number of bacterial communities containing two or three strains, each undergoing a random genetic modification (either knock-outs or knock-ins) within the community GEM. Our model demonstrates high concordance with FBA, achieving an average area under the curve (AUC) of 0.98, and a F1 score of 0.82. Notably, it operates approximately 6,415 times faster than FBA. Our model indicates that graph-based machine learning algorithms can significantly accelerate productivity prediction and hold potential to advance microbial community design, thereby guiding microbial engineering strategies."
