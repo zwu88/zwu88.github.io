@@ -20,10 +20,12 @@ My research interests lie in the intersection of machine learning, scientific co
 
 ## Services
 - **<span style="color: var(--global-theme-color); font-weight: bold;">Journal Reviewer:</span>**
-    - Transactions on Machine Learning Research (**TMLR**)
+    - Computational and Applied Mathematics (COAM)
+    - Journal of Medical Internet Research (JMIR)
 - **<span style="color: var(--global-theme-color); font-weight: bold;">Conference Reviewer:</span>**
-    - International Conference on Learning Representations (**ICLR**) 2026
-    - AI4MATH Workshop at International Conference on Machine Learning (**ICML**) 2025
+    - NeurIPS 2025 (Ethics Review)
+    - ICML 2025 Workshop: AI4Math
+    - ICLR 2025 Workshops: FM-Wild & AI4CHL
 
 ## Apart from research
 Beyond research, my biggest passions include:
