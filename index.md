@@ -22,7 +22,7 @@ My research interests lie in the intersection of machine learning, scientific co
 - **[Apr 2025]** I gave an online presentation at *<span style="color: var(--global-theme-color);">Yale University</span>* on my paper *<span style="color: var(--global-theme-color);">COAST</span>*. Thanks for the invitation of Prof. *<span style="color: var(--global-theme-color);">Lu Lu</span>*.
 - **[Feb 2025]** Our paper *<span style="color: var(--global-theme-color);">COAST: Intelligent Time-Adaptive Neural Operators</span>* is available on arXiv.
 - **[Nov 2024]** I received the *<span style="color: var(--global-theme-color);">Tan Siu Lin Oversea Exchange Endowment For Undergraduates</span>* (top 10 applicants per year).
-- **[Aug 2025]** I gave a presentation at *<span style="color: var(--global-theme-color);">Yale University</span>* on . Thanks for the hosting of Prof. *<span style="color: var(--global-theme-color);">David van Dijk</span>*.
+- **[Aug 2025]** I gave a presentation at *<span style="color: var(--global-theme-color);">Yale University</span>* on my research proposal, hosted by Prof. *<span style="color: var(--global-theme-color);">David van Dijk</span>*.
 - **[Aug 2025]** I join *<span style="color: var(--global-theme-color);">Yale University</span>* as a research assistant, surpervised by Prof. *<span style="color: var(--global-theme-color);">Lu Lu</span>* and Prof. *<span style="color: var(--global-theme-color);">David van Dijk</span>*.
 
 {% include_relative _includes/publications.md %}
