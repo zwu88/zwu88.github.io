@@ -1,23 +1,21 @@
-name: Sizhuang He
+name: Zhikai Wu
 contact:
-  email_display: sizhuang.he@yale.edu
-  email_link: sizhuang.he@yale.edu
+  email_display: zhikaiwu@seas.upenn.edu
+  email_link: zhikaiwu@seas.upenn.edu
   homepage: https://sizhuang.org
-  github: https://github.com/SizhuangHe
+  github: https://github.com/zwu88
 research:
   items:
-  - title: Generative Modeling
-    description: Flow Matching, Diffusion, Discrete Diffusion
+  - title: AI for Science
+    description: ''
+  - title: Scientific Machine Learning
+    description: ''
   - title: Operator Learning
-    description: Modeling Continuous Spatiotemporal Dynamics, Integral Equations
-  - title: Computational Biology
-    description: Single-cell Transcriptomics Data Analysis
-  - title: LLMs and Agentic AI
-    description: Autonomous Systems for Biological Discovery
-  latex: '\textbf{Generative Modeling}: Flow Matching, Diffusion, Discrete Diffusion,
-    \textbf{Operator Learning}: Modeling Continuous Spatiotemporal Dynamics, Integral
-    Equations, \textbf{Computational Biology}: Single-cell Transcriptomics Data Analysis,
-    \textbf{LLMs and Agentic AI}: Autonomous Systems for Biological Discovery'
+    description: ''
+  - title: Physics-informed Machine Learning
+    description: ''
+  latex: '\textbf{AI for Science}: , \textbf{Scientific Machine Learning}: , \textbf{Operator
+    Learning}: , \textbf{Physics-informed Machine Learning}: '
 education:
 - institution: Yale University
   location: New Haven, CT
@@ -38,13 +36,16 @@ education:
   - - GPA
     - 4.0 / 4.0
 publications:
-- title: Non-Markovian Discrete Diffusion with Causal Language Models
-  title_latex: Non-Markovian Discrete Diffusion with Causal Language Models
-  title_html: Non-Markovian Discrete Diffusion with Causal Language Models
-  authors_latex: Y. Zhang*, \underline{\textbf{S. He}}*, et al.
-  authors_html: Y. Zhang*, <span class="cv-me">S. He</span>*, et al.
-  venue_latex: NeurIPS 2025 (Poster)
-  venue_html: NeurIPS 2025 (Poster)
+- title: 'GeoFunFlow: Geometric Function Flow Matching for Inverse Operator Learning
+    over Complex Geometries'
+  title_latex: 'GeoFunFlow: Geometric Function Flow Matching for Inverse Operator
+    Learning over Complex Geometries'
+  title_html: 'GeoFunFlow: Geometric Function Flow Matching for Inverse Operator Learning
+    over Complex Geometries'
+  authors_latex: S. Wang*, Z. Wu*, D. van Dijk, L. Lu
+  authors_html: S. Wang*, Z. Wu*, D. van Dijk, L. Lu
+  venue_latex: In Review
+  venue_html: In Review
 - title: 'TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion'
   title_latex: 'TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion'
   title_html: 'TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion'
@@ -68,15 +69,13 @@ publications:
   authors_html: Z. Wu, S. Zhang, <span class="cv-me">S. He</span>, et al.
   venue_latex: AI4MATH Workshop at ICML 2025 (Poster)
   venue_html: AI4MATH Workshop at ICML 2025 (Poster)
-- title: Scaling Large Language Models for Next-Generation Single-Cell Analysis
-  title_latex: Scaling Large Language Models for Next-Generation Single-Cell Analysis
-  title_html: Scaling Large Language Models for Next-Generation Single-Cell Analysis
-  authors_latex: S. Rizvi*, D. Levine*, A. Patel*, S. Zhang*, E. Wang*, \underline{\textbf{S.
-    He}}, et al.
-  authors_html: S. Rizvi*, D. Levine*, A. Patel*, S. Zhang*, E. Wang*, <span class="cv-me">S.
-    He</span>, et al.
-  venue_latex: bioRxiv
-  venue_html: bioRxiv
+- title: 'TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion'
+  title_latex: 'TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion'
+  title_html: 'TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion'
+  authors_latex: Z. Wu, S. Wang, S. Zhang, \underline{\textbf{S. He}}, et al.
+  authors_html: Z. Wu, S. Wang, S. Zhang, <span class="cv-me">S. He</span>, et al.
+  venue_latex: In Review
+  venue_html: In Review
 - title: 'CaLMFlow: Flow Matching using Causal Language Models'
   title_latex: 'CaLMFlow: Flow Matching using Causal Language Models'
   title_html: 'CaLMFlow: Flow Matching using Causal Language Models'
@@ -112,4 +111,4 @@ service:
   items:
   - International Conference on Learning Representations (ICLR)
   - AI4MATH Workshop at ICML 2025
-last_updated: November 03, 2025
+last_updated: November 07, 2025
