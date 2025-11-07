@@ -39,29 +39,25 @@ publications:
   authors_html: S. Wang*, Z. Wu*, D. van Dijk, L. Lu
   venue_latex: In Review
   venue_html: In Review
-- title: 'TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion'
-  title_latex: 'TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion'
-  title_html: 'TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion'
-  authors_latex: Z. Wu, S. Wang, S. Zhang, \underline{\textbf{S. He}}, et al.
-  authors_html: Z. Wu, S. Wang, S. Zhang, <span class="cv-me">S. He</span>, et al.
-  venue_latex: In Review
-  venue_html: In Review
-- title: Intelligence at the Edge of Chaos
-  title_latex: Intelligence at the Edge of Chaos
-  title_html: Intelligence at the Edge of Chaos
-  authors_latex: S. Zhang*, A. Patel*, S. Rizvi, N. Liu, \underline{\textbf{S. He}},
-    et al.
-  authors_html: S. Zhang*, A. Patel*, S. Rizvi, N. Liu, <span class="cv-me">S. He</span>,
-    et al.
-  venue_latex: ICLR 2025 (Poster)
-  venue_html: ICLR 2025 (Poster)
+- title: Predicting Microbial Community Productivity Based-On Genomic Sequences with
+    Graph Neural Network
+  title_latex: Predicting Microbial Community Productivity Based-On Genomic Sequences
+    with Graph Neural Network
+  title_html: Predicting Microbial Community Productivity Based-On Genomic Sequences
+    with Graph Neural Network
+  authors_latex: J. Hou, P. X. Geng, Z. Wu, W. Fan, H. Zhu
+  authors_html: J. Hou, P. X. Geng, Z. Wu, W. Fan, H. Zhu
+  venue_latex: 2024 17th International Congress on Image and Signal Processing, BioMedical
+    Engineering and Informatics
+  venue_html: 2024 17th International Congress on Image and Signal Processing, BioMedical
+    Engineering and Informatics
 - title: 'COAST: Intelligent Time-Adaptive Neural Operators'
   title_latex: 'COAST: Intelligent Time-Adaptive Neural Operators'
   title_html: 'COAST: Intelligent Time-Adaptive Neural Operators'
   authors_latex: Z. Wu, S. Zhang, \underline{\textbf{S. He}}, et al.
   authors_html: Z. Wu, S. Zhang, <span class="cv-me">S. He</span>, et al.
-  venue_latex: AI4MATH Workshop at ICML 2025 (Poster)
-  venue_html: AI4MATH Workshop at ICML 2025 (Poster)
+  venue_latex: ICML 2025 Workshop on AI4Math (Poster)
+  venue_html: ICML 2025 Workshop on AI4Math (Poster)
 - title: 'TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion'
   title_latex: 'TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion'
   title_html: 'TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion'
@@ -69,23 +65,6 @@ publications:
   authors_html: Z. Wu, S. Wang, S. Zhang, <span class="cv-me">S. He</span>, et al.
   venue_latex: In Review
   venue_html: In Review
-- title: 'CaLMFlow: Flow Matching using Causal Language Models'
-  title_latex: 'CaLMFlow: Flow Matching using Causal Language Models'
-  title_html: 'CaLMFlow: Flow Matching using Causal Language Models'
-  authors_latex: \underline{\textbf{S. He}}*, D. Levine*, et al.
-  authors_html: <span class="cv-me">S. He</span>*, D. Levine*, et al.
-  venue_latex: arXiv
-  venue_html: arXiv
-- title: 'Operator Learning Meets Numerical Analysis: Improving Neural Networks through
-    Iterative Methods'
-  title_latex: 'Operator Learning Meets Numerical Analysis: Improving Neural Networks
-    through Iterative Methods'
-  title_html: 'Operator Learning Meets Numerical Analysis: Improving Neural Networks
-    through Iterative Methods'
-  authors_latex: E. Zappala, D. Levine, \underline{\textbf{S. He}}, et al.
-  authors_html: E. Zappala, D. Levine, <span class="cv-me">S. He</span>, et al.
-  venue_latex: arXiv
-  venue_html: arXiv
 honors:
 - name: Fan Family Fellowship
   institution: Yale University
