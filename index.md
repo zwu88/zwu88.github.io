@@ -8,7 +8,7 @@ I'm a forth-year undergraduate student at [Yuanpei College](https://yuanpei.pku.
 
 I work on the intersection of machine learning, mathematics, and physics:
 
-- **<span style="color: var(--global-theme-color); font-weight: bold;">AI for Science, Scientific Machine Learning, Operator Learning, Physics-informed Machine Learning</span>** 
+**<span style="color: var(--global-theme-color); font-weight: bold;">AI for Science, Scientific Machine Learning, Operator Learning, Physics-informed Machine Learning</span>** 
 
 ## News
 - **[Sep 2025]** Our paper *<span style="color: var(--global-theme-color);">Non-Markovian Discrete Diffusion with Causal Language Models</span>* is accepted to **NeurIPS 2025** (*San Diego, CA*).
