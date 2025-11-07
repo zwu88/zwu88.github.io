@@ -14,7 +14,7 @@ from scholarly import scholarly
 import requests
 from bs4 import BeautifulSoup
 
-def fetch_google_scholar_data(scholar_id="5biMMmIAAAAJ"):
+def fetch_google_scholar_data(scholar_id="6aaQRzoAAAAJ"):
     """Fetch data from Google Scholar using scholarly library"""
     try:
         # Search for the author

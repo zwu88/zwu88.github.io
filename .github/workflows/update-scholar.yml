@@ -48,7 +48,7 @@ jobs:
         python -u simple_crawler.py || echo "❌ Crawler failed, will retry next time"
         echo "✅ Crawler step completed"
       env:
-        GOOGLE_SCHOLAR_ID: "5biMMmIAAAAJ"
+        GOOGLE_SCHOLAR_ID: "6aaQRzoAAAAJ"
 
     - name: Check if data was fetched
       id: check_data
