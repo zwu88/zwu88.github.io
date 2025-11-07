@@ -15,14 +15,14 @@ My research interests lie in the intersection of machine learning, scientific co
 - **[Sep 2025]** Released *<span style="color: var(--global-theme-color);">TANTE</span>* code as [open-source](https://github.com/zwu88/TANTE).
 - **[Sep 2025]** Posted *<span style="color: var(--global-theme-color);">GeoFunFlow: Geometric Function Flow Matching for Inverse Operator Learning over Complex Geometries</span>* on [arXiv](https://arxiv.org/abs/2509.24117).
 - **[Sep 2025]** Joined the *<span style="color: var(--global-theme-color);">University of Pennsylvania</span>* as a Research Assistant (surpervised by Prof. *<span style="color: var(--global-theme-color);">Paris Perdikaris</span>*).
-- **[Sep 2025]** Invited seminar at the *<span style="color: var(--global-theme-color);">University of Pennsylvania</span>* on my research (host: Prof.  *<span style="color: var(--global-theme-color);">Paris Perdikaris</span>* 🙏🎓).
-- **[Aug 2025]** Invited talk at *<span style="color: var(--global-theme-color);">Yale University</span>* on *<span style="color: var(--global-theme-color);">TANTE</span>* (host: Prof. *<span style="color: var(--global-theme-color);">Lu Lu</span>* 🙏🎓).
+- **[Sep 2025]** Invited seminar at the *<span style="color: var(--global-theme-color);">University of Pennsylvania</span>* on my research (host: Prof.  *<span style="color: var(--global-theme-color);">Paris Perdikaris</span>*).
+- **[Aug 2025]** Invited talk at *<span style="color: var(--global-theme-color);">Yale University</span>* on *<span style="color: var(--global-theme-color);">TANTE</span>* (host: Prof. *<span style="color: var(--global-theme-color);">Lu Lu</span>*).
 - **[Jul 2025]** *<span style="color: var(--global-theme-color);">COAST: Intelligent Time-Adaptive Neural Operators</span>* accepted to **AI4Math@ICML 2025** (*Vancouver, Canada*).
 - **[Sep 2025]** Posted *<span style="color: var(--global-theme-color);">TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion</span>* on [arXiv](https://arxiv.org/abs/2502.08574).
-- **[Apr 2025]** Invited talk at *<span style="color: var(--global-theme-color);">Yale University</span>* on *<span style="color: var(--global-theme-color);">COAST</span>* (host: Prof. *<span style="color: var(--global-theme-color);">Lu Lu</span>* 🙏🎓).
+- **[Apr 2025]** Invited talk at *<span style="color: var(--global-theme-color);">Yale University</span>* on *<span style="color: var(--global-theme-color);">COAST</span>* (host: Prof. *<span style="color: var(--global-theme-color);">Lu Lu</span>*).
 - **[Feb 2025]** Posted *<span style="color: var(--global-theme-color);">COAST: Intelligent Time-Adaptive Neural Operators</span>* on arXiv.
 - **[Nov 2024]** Received the *<span style="color: var(--global-theme-color);">Tan Siu Lin Oversea Exchange Endowment For Undergraduates</span>* (top-10 awardees annually).
-- **[Aug 2025]** Presentation at *<span style="color: var(--global-theme-color);">Yale University</span>* on my research proposal (host: by Prof. *<span style="color: var(--global-theme-color);">David van Dijk</span>* 🙏🎓).
+- **[Aug 2025]** Presentation at *<span style="color: var(--global-theme-color);">Yale University</span>* on my research proposal (host: by Prof. *<span style="color: var(--global-theme-color);">David van Dijk</span>*).
 - **[Aug 2025]** Joined *<span style="color: var(--global-theme-color);">Yale University</span>* as a Research Assistant (surpervised by Prof. *<span style="color: var(--global-theme-color);">Lu Lu</span>* and Prof. *<span style="color: var(--global-theme-color);">David van Dijk</span>*).
 
 {% include_relative _includes/publications.md %}
