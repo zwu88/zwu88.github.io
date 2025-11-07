@@ -4,14 +4,11 @@ layout: homepage
 
 ## About Me
 
-I'm a forth-year undergraduate student at [Yuanpei College](https://yuanpei.pku.edu.cn/en/aboutyuanpei/collegeprofile/index.htm), [Peking University](https://english.pku.edu.cn/). Previously, I completed my Bachelor's degree at [University of Michigan, Ann Arbor](https://umich.edu/), majoring in [Honors Mathematics](https://lsa.umich.edu/math) and minoring in [Computer Science](https://cse.engin.umich.edu/).
+I'm a forth-year undergraduate student at [Yuanpei College](https://yuanpei.pku.edu.cn/en/aboutyuanpei/collegeprofile/index.htm), [Peking University](https://english.pku.edu.cn/). From August 2024, I worked with Prof. Lu Lu and Prof. David van Dijk at Yale University as a visiting student.
 
 I work on the intersection of machine learning, mathematics, and physics:
 
-- **<span style="color: var(--global-theme-color); font-weight: bold;">AI for Science</span>** 
-- **<span style="color: var(--global-theme-color); font-weight: bold;">Scientific Machine Learning</span>** 
-- **<span style="color: var(--global-theme-color); font-weight: bold;">Operator Learning</span>** 
-- **<span style="color: var(--global-theme-color); font-weight: bold;">Physics-informed Machine Learning </span>** 
+- **<span style="color: var(--global-theme-color); font-weight: bold;">AI for Science, Scientific Machine Learning, Operator Learning, Physics-informed Machine Learning</span>** 
 
 ## News
 - **[Sep 2025]** Our paper *<span style="color: var(--global-theme-color);">Non-Markovian Discrete Diffusion with Causal Language Models</span>* is accepted to **NeurIPS 2025** (*San Diego, CA*).
