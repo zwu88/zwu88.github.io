@@ -11,7 +11,7 @@
 <li data-paper-id="{{ link.paper_id }}">
 <div class="row pub-row">
 <!-- <div class="pub-row"> -->
-<div class="col-sm-12" style="padding-left:15px; padding-right:15px; margin-bottom:6px;">
+<div class="col-12" style="padding-left:15px; padding-right:15px; margin-bottom:6px;">
   <div class="title" style="font-size: 1.3em; font-weight: 600; color: #043361;">
     {% if link.alt_title %}{{ link.alt_title }}{% else %}{{ link.title }}{% endif %}
   </div>
