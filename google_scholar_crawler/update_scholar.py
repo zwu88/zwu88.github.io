@@ -23,9 +23,9 @@ def fetch_google_scholar_data(scholar_id="5biMMmIAAAAJ"):
         
         # Extract basic information
         data = {
-            "name": author.get('name', 'Sizhuang He'),
-            "affiliation": author.get('affiliation', 'Yale University'),
-            "email": author.get('email', 'sizhuang.he@yale.edu'),
+            "name": author.get('name', 'Zhikai Wu'),
+            "affiliation": author.get('affiliation', 'Peking University'),
+            "email": author.get('email', 'z.wu@stu.pku.edu.cn'),
             "citedby": author.get('citedby', 0),
             "citedby5y": author.get('citedby5y', 0),
             "hindex": author.get('hindex', 0),
@@ -64,7 +64,7 @@ def fetch_google_scholar_data(scholar_id="5biMMmIAAAAJ"):
         print(f"Error fetching Google Scholar data: {e}")
         return None
 
-def fetch_with_requests(scholar_id="pez-fEUAAAAJ"):
+def fetch_with_requests(scholar_id="6aaQRzoAAAAJ"):
     """Fallback method using requests library"""
     try:
         headers = {
