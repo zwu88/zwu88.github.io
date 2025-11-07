@@ -4,7 +4,7 @@
 
 A modern, feature-rich academic homepage with enhanced publication management and automatic Google Scholar integration.
 
-**Live Site:** [sizhuang.org](https://sizhuang.org/)  
+**Live Site:** [zwu88.github.io](https://zwu88.github.io)  
 **Original Theme:** [Minimal Light by Yaoyao Liu](https://github.com/yaoyao-liu/minimal-light)
 
 [![LICENSE](https://img.shields.io/github/license/yaoyao-liu/minimal-light?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/yaoyao-liu/minimal-light/blob/main/LICENSE)
