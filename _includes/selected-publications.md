@@ -13,7 +13,7 @@
   {% assign is_even = selected_count | modulo: 2 %}
   {% if is_even == 1 %}
   <!-- Odd publications: Image left, text right -->
-  <div class="col-sm-4 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+  <div class="col-sm-5 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if link.image %} 
     <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=60%">
     {% endif %}
@@ -54,7 +54,7 @@
       {% endif %}
     </div>
   </div>
-  <div class="col-sm-4 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+  <div class="col-sm-5 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if link.image %} 
     <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=60%">
     {% endif %}
