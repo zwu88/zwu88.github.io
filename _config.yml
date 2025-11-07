@@ -14,10 +14,12 @@ canonical: https://minimal-light-theme.yliu.me/
 # If you don't need one of them, you may delete the corresponding line.
 google_scholar: https://scholar.google.com/citations?user=6aaQRzoAAAAJ&hl=en
 github_link: https://github.com/zwu88
+publications_link: /publications/
+beyond_link: /beyond/
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/avatars/formal_head.jpg
+avatar: ./assets/img/avatar.jpg
 favicon: ./assets/img/avatars/sydney_sea.jpg
 favicon_dark: ./assets/img/avatars/conduct.jpg
 

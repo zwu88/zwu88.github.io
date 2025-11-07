@@ -22,7 +22,7 @@ My research interests lie in the intersection of machine learning, scientific co
 - **[Apr 2025]** Invited talk at *<span style="color: var(--global-theme-color);">Yale University</span>* on *<span style="color: var(--global-theme-color);">COAST</span>* (host: Prof. *<span style="color: var(--global-theme-color);">Lu Lu</span>*).
 - **[Feb 2025]** Posted *<span style="color: var(--global-theme-color);">COAST: Intelligent Time-Adaptive Neural Operators</span>* on arXiv.
 - **[Nov 2024]** Received the *<span style="color: var(--global-theme-color);">Tan Siu Lin Oversea Exchange Endowment For Undergraduates</span>* (top-10 awardees annually).
-- **[Oct 2024]** *<span style="color: var(--global-theme-color);">Predicting Microbial Community Productivity Based-On Genomic Sequences with Graph Neural Network</span>* accepted to [CISP-BMEI 2024](https://ieeexplore.ieee.org/abstract/document/10906150).
+- **[Oct 2024]** *<span style="color: var(--global-theme-color);">Predicting Microbial Community Productivity Based-On Genomic Sequences with Graph Neural Network</span>* [accepted](https://ieeexplore.ieee.org/abstract/document/10906150).
 - **[Aug 2024]** Presentation at *<span style="color: var(--global-theme-color);">Yale University</span>* on my research proposal (host: Prof. *<span style="color: var(--global-theme-color);">David van Dijk</span>*).
 - **[Aug 2024]** Joined *<span style="color: var(--global-theme-color);">Yale University</span>* as a Research Assistant (surpervised by Prof. *<span style="color: var(--global-theme-color);">Lu Lu</span>* and Prof. *<span style="color: var(--global-theme-color);">David van Dijk</span>*).
 
