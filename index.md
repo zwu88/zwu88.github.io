@@ -14,7 +14,7 @@ My research interests lie in the intersection of machine learning, scientific co
 - **[Jan 2025]** I received *<span style="color: var(--global-theme-color);">the Fan Family Fellowship</span>* of Yale University.
 - **[Jan 2025]** Our paper *<span style="color: var(--global-theme-color);">Intelligence at the Edge of Chaos</span>* is accepted to **ICLR 2025** (*Singapore*).
 
-{% include_relative _includes/projects.md %}
+{% include_relative _includes/selected_publications.md %}
 {% include_relative _includes/publications.md %}
 
 
