@@ -24,7 +24,7 @@ async function loadScholarStats() {
   }
   
   try {
-    const response = await fetch('https://raw.githubusercontent.com/SizhuangHe/sizhuanghe.github.io/google-scholar-stats/gs_data.json');
+    const response = await fetch('https://raw.githubusercontent.com/zwu88/zwu88.github.io/google-scholar-stats/gs_data.json');
     if (!response.ok) {
       throw new Error('Failed to fetch stats');
     }

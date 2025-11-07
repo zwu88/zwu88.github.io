@@ -59,7 +59,7 @@
         {% assign author_parts = link.authors | split: ', ' %}
         {% assign truncated_authors = '' %}
         {% assign author_count = 0 %}
-        {% assign found_sizhuang = false %}
+        {% assign found_zhikai = false %}
         {% assign should_truncate = false %}
         
         {% for author in author_parts %}
@@ -71,12 +71,12 @@
             {% assign truncated_authors = truncated_authors | append: ', ' | append: author %}
           {% endif %}
           
-          {% if author contains 'Sizhuang He' %}
-            {% assign found_sizhuang = true %}
+          {% if author contains 'Zhikai Wu' %}
+            {% assign found_zhikai = true %}
           {% endif %}
           
-          {% comment %} Only truncate after finding Sizhuang He and having at least 5 authors {% endcomment %}
-          {% if found_sizhuang == true and author_count >= 5 and author_parts.size > author_count %}
+          {% comment %} Only truncate after finding Zhikai Wu and having at least 5 authors {% endcomment %}
+          {% if found_zhikai == true and author_count >= 5 and author_parts.size > author_count %}
             {% assign should_truncate = true %}
             {% break %}
           {% endif %}

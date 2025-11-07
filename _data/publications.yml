@@ -1,32 +1,32 @@
 # Publications data for automated CV generation
 main:
-  - title: Scaling Large Language Models for Next-Generation Single-Cell Analysis
-    alt_title: "Cell2Sentence"
-    paper_id: "5biMMmIAAAAJ:u-x6o8ySG0sC"
-    authors: Syed Rizvi<sup>*</sup>, Daniel Levine<sup>*</sup>, Aakash Patel<sup>*</sup>, Shiyang Zhang<sup>*</sup>, Eric Wang<sup>*</sup>, <b><u>Sizhuang He</u></b>, David Zhang, Cerise Tang, Zhuoyang Lyu, Rayyan Darji, Marlene Li, Emily Sun, David Jeong, Lawrence Zhao, Jennifer Kwan, David Braun, Brian Hafler, Jeffrey Ishizuka, Rahul Dhodapkar, Hattie Chung, Shekoofeh Azizi, Bryan Perozzi, and David van Dijk
-    date: Apr 2025
-    conference_short: bioRxiv
-    conference: bioRxiv
-    pdf: https://www.biorxiv.org/content/10.1101/2025.04.14.648850v1.full.pdf
-    # code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: ./assets/bibs/c2s2.txt
-    image: ./assets/img/c2s2.png
+  - title: "TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion"
+    alt_title: "TANTE"
+    paper_id: "5biMMmIAAAAJ:u5HHmVD_uO8C"
+    authors: Zhikai Wu, Sifan Wang, Shiyang Zhang, Sizhuang He, Min Zhu, Anran Jiao, Lu Lu, and David van Dijk
+    date: Oct 2025
+    conference_short: In Review
+    conference: In Review
+    pdf: https://arxiv.org/pdf/2502.08574
+    code: https://github.com/zwu88/TANTE
+    bibtex: ./assets/bibs/tante.txt
+    image: ./assets/img/tante.gif
     # poster: ./assets/posters/CaLMFlow_NYAS_Poster.pdf
-    blog: https://research.google/blog/teaching-machines-the-language-of-biology-scaling-large-language-models-for-next-generation-single-cell-analysis/
+    # blog: https://research.google/blog/teaching-machines-the-language-of-biology-scaling-large-language-models-for-next-generation-single-cell-analysis/
     notes: Preprint
-    tags: ["Large Language Models", "Computational Biology", "Single-Cell Analysis"]
+    tags: ["Operator Learning", "PDEs", "Adaptive Step Size"]
     selected: true
     summary: "C2S-Scale scales this framework to 27 billion parameters trained on a billion-token multimodal corpus—achieving state-of-the-art predictive and generative performance for complex, multicellular analyses."
-    full_abstract: "Single-cell RNA sequencing has transformed our understanding of cellular diversity, yet current single-cell foundation models (scFMs) remain limited in their scalability, flexibility across diverse tasks, and ability to natively integrate textual information. In this work, we build upon the Cell2Sentence (C2S) framework, which represents scRNA-seq profiles as textual 'cell sentences,' to train Large Language Models (LLMs) on a corpus comprising over one billion tokens of transcriptomic data, biological text, and metadata. By scaling model size to 27 billion parameters, we observe consistent improvements in predictive and generative capabilities, as well as the capacity for advanced downstream tasks requiring synthesis of information across multicellular contexts. Through targeted fine-tuning supported by modern reinforcement learning techniques, our approach excels in tasks such as perturbation response prediction, natural language interpretation, and complex biological reasoning. By unifying transcriptomic and textual data at unprecedented scales, this approach not only surpasses both specialized single-cell models and general-purpose LLMs, but also establishes a powerful platform for next-generation single-cell analysis, paving the way for the development of 'virtual cells.'"
+    full_abstract: "Operator learning for time-dependent partial differential equations (PDEs) has seen rapid progress in recent years, enabling efficient approximation of complex spatiotemporal dynamics. However, most existing methods rely on fixed time step sizes during rollout, which limits their ability to adapt to varying temporal complexity and often leads to error accumulation. Here, we propose the Time-Adaptive Transformer with Neural Taylor Expansion (TANTE), a novel operator-learning framework that produces continuous-time predictions with adaptive step sizes. TANTE predicts future states by performing a Taylor expansion at the current state, where neural networks learn both the higher-order temporal derivatives and the local radius of convergence. This allows the model to dynamically adjust its rollout based on the local behavior of the solution, thereby reducing cumulative error and improving computational efficiency. We demonstrate the effectiveness of TANTE across a wide range of PDE benchmarks, achieving superior accuracy and adaptability compared to fixed-step baselines, delivering accuracy gains of 60-80 % and speed-ups of 30-40 % at inference time. The code is publicly available at https://github.com/zwu88/TANTE for transparency and reproducibility."
   
-  - title: Non-Markovian Discrete Diffusion with Causal Language Models
-    alt_title: "CaDDI"
+  - title: "GeoFunFlow: Geometric Function Flow Matching for Inverse Operator Learning over Complex Geometries"
+    alt_title: "GeoFunFlow"
     paper_id: "5biMMmIAAAAJ:9yKSN-GCB0IC"
-    authors: Yangtian Zhang <sup>*</sup>, <b><u>Sizhuang He<sup>*</sup></u></b>, Daniel Levine, Lawrence Zhao, David Zhang, Syed Rizvi, Emanuele Zappala, Rex Ying, and David van Dijk
-    date: Jan 2025
-    conference_short: NeurIPS
-    conference: NeurIPS 2025 (Poster)
-    pdf: https://arxiv.org/pdf/2502.09767
+    authors: Sifan Wang<sup>*</sup>, Zhikai Wu<sup>*</sup>, David van Dijk, and Lu Lu
+    date: Sep 2025
+    conference_short: In Review
+    conference: In Review
+    pdf: https://arxiv.org/pdf/2509.24117
     # code: https://github.com/MrGiovanni/ContinualLearning
     bibtex: ./assets/bibs/caddi.txt
     image: ./assets/img/caddi.png
