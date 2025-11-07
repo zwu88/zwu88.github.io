@@ -16,6 +16,7 @@
     {% if link.alt_title %}{{ link.alt_title }}{% else %}{{ link.title }}{% endif %}
   </div>
 </div>
+<div class="row pub-row">
   {% assign is_even = selected_count | modulo: 2 %}
   {% if is_even == 1 %}
   <!-- Odd publications: Image left, text right -->
