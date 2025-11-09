@@ -8,10 +8,19 @@ I'm a forth-year undergraduate student at [Yuanpei College](https://yuanpei.pku.
 
 My research interests lie in the intersection of machine learning, scientific computing, and computational physics. I am particularly interested in developing scalable and robust algorithms for solving partial differential equations, and leveraging these algorithms to solve challenging problems in science and engineering.
 
+## News
+- **[Nov 2025]** [GRE Mathematics Subject Test](https://www.ets.org/gre/test-takers/subject-tests/about/content-structure.html#accordion-792530b110-item-ab30804f15): *<span style="color: var(--global-theme-color);">930/990</span>* (higher than *<span style="color: var(--global-theme-color);">94%</span>* of test takers).
+- **[Oct 2025]** Submitted *<span style="color: var(--global-theme-color);">TANTE</span>* to [Journal of Computational Physics](https://track.authorhub.elsevier.com/?uuid=58e8c1e5-4918-4bd8-a023-0b4f7cf889d6).
+- **[Sep 2025]** Released *<span style="color: var(--global-theme-color);">TANTE</span>* code as [open-source](https://github.com/zwu88/TANTE).
+- **[Sep 2025]** Posted *<span style="color: var(--global-theme-color);">GeoFunFlow: Geometric Function Flow Matching for Inverse Operator Learning over Complex Geometries</span>* on [arXiv](https://arxiv.org/abs/2509.24117).
+- **[Sep 2025]** Joined the *<span style="color: var(--global-theme-color);">University of Pennsylvania</span>* as a Research Assistant (surpervised by Prof. *<span style="color: var(--global-theme-color);">Paris Perdikaris</span>*).
+
 {% include_relative _includes/selected_publications.md %}
+{% include_relative _includes/publications.md %}
 
 ## Timeline
-- **[Oct 2025]** Submitted *<span style="color: var(--global-theme-color);">TANTE</span>* to [Journal of Computational Physics](https://track.authorhub.elsevier.com/?uuid=58e8c1e5-4918-4bd8-a023-0b4f7cf889d6).
+- **[2025/11]** [GRE Mathematics Subject Test](https://www.ets.org/gre/test-takers/subject-tests/about/content-structure.html#accordion-792530b110-item-ab30804f15): *<span style="color: var(--global-theme-color);">930/990</span>* (higher than *<span style="color: var(--global-theme-color);">94%</span>* of test takers).
+- **[2025/10]** Submitted *<span style="color: var(--global-theme-color);">TANTE</span>* to [Journal of Computational Physics](https://track.authorhub.elsevier.com/?uuid=58e8c1e5-4918-4bd8-a023-0b4f7cf889d6).
 - **[Sep 2025]** Released *<span style="color: var(--global-theme-color);">TANTE</span>* code as [open-source](https://github.com/zwu88/TANTE).
 - **[Sep 2025]** Posted *<span style="color: var(--global-theme-color);">GeoFunFlow: Geometric Function Flow Matching for Inverse Operator Learning over Complex Geometries</span>* on [arXiv](https://arxiv.org/abs/2509.24117).
 - **[Sep 2025]** Joined the *<span style="color: var(--global-theme-color);">University of Pennsylvania</span>* as a Research Assistant (surpervised by Prof. *<span style="color: var(--global-theme-color);">Paris Perdikaris</span>*).
@@ -25,8 +34,6 @@ My research interests lie in the intersection of machine learning, scientific co
 - **[Oct 2024]** *<span style="color: var(--global-theme-color);">Predicting Microbial Community Productivity Based-On Genomic Sequences with Graph Neural Network</span>* [accepted](https://ieeexplore.ieee.org/abstract/document/10906150).
 - **[Aug 2024]** Presentation at *<span style="color: var(--global-theme-color);">Yale University</span>* on my research proposal (host: Prof. *<span style="color: var(--global-theme-color);">David van Dijk</span>*).
 - **[Aug 2024]** Joined *<span style="color: var(--global-theme-color);">Yale University</span>* as a Research Assistant (surpervised by Prof. *<span style="color: var(--global-theme-color);">Lu Lu</span>* and Prof. *<span style="color: var(--global-theme-color);">David van Dijk</span>*).
-
-{% include_relative _includes/publications.md %}
 
 
 ## Services
