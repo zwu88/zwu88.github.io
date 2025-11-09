@@ -20,7 +20,7 @@ beyond_link: /beyond/
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
 avatar: ./assets/img/head.png
-favicon: ./assets/img/avatars/sydney_sea.png
+favicon: ./assets/img/avatars/sydney_sea.jpg
 favicon_dark: ./assets/img/avatars/conduct.jpg
 
 # Footnote
