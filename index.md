@@ -41,7 +41,21 @@ My research interests lie in the intersection of machine learning, scientific co
     - ICLR 2025 Workshops: FM-Wild & AI4CHL
 
 ## Apart from research
-Beyond research, my biggest passions include:
-- **<span style="color: var(--global-theme-color); font-weight: bold;">Football 🏈:</span>** I am a dedicated Michigan Wolverines fan 〽️ (Go Blue!) in college football and root for the Detroit Lions in the NFL. 
-- <span style="color: var(--global-theme-color); font-weight: bold;">Traveling:</span> I enjoy exploring different cities—my all-time top three are Tokyo, Taipei, and Singapore. When visiting new places, I particularly enjoy experiencing local train systems, with my favorite being the Yamanote Line 🟢 operated by JR East in Tokyo.
 
+**<span style="color: var(--global-theme-color); font-weight: bold;">Conductor</span>**
+
+*Lead the regular rehearsals, coordinate semiannual auditions, conducted and coordinated eight concerts.*
+
+- **[2022-Present]** *Orchestra Conductor*: Symphony Orchestra of Student Strings Association, Peking University
+- **[2024-Present]** *Chorus Conductor*: Yuanpei Acoustic Chamber Choir, Peking University
+- **[2024-Present]** *Chorus Conductor*: Retirees Choir, Peking University (\$40/hr earned)
+- **[2024-2025]** President: Student Strings Association, Peking University
+- **[2023-2024]** Director: Performance Department of Student Strings Association, Peking University
+
+**<span style="color: var(--global-theme-color); font-weight: bold;">Pianist</span>**
+
+*Taught piano lessons,  interviewed semiannual auditions, and performed as a pianist in four concerts.*
+
+- **[2023-2024]** *Director*: Performance Department of Piano Association, Peking University
+- **[Fall 2023]** *Piano Instructor*: Advanced Piano Lessons of Piano Association, Peking University
+- **[2022-Present]** *Member*: Performance Department of Piano Association, Peking University
