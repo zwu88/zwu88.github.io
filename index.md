@@ -43,16 +43,16 @@ My research interests lie in the intersection of machine learning, scientific co
 
 ## Apart from research
 
-**<span style="color: var(--global-theme-color); font-weight: bold;">Conductor</span>**: 
-*Lead the regular rehearsals, coordinate semiannual auditions, conducted and coordinated eight concerts.*
-- **[2022-Present]** *Orchestra Conductor*: Symphony Orchestra of Student Strings Association, Peking University
-- **[2024-Present]** *Chorus Conductor*: Yuanpei Acoustic Chamber Choir, Peking University
-- **[2024-Present]** *Chorus Conductor*: Retirees Choir, Peking University (\$40/hr earned)
-- **[2024-2025]** *President*: Student Strings Association, Peking University
-- **[2023-2024]** *Director*: Performance Department of Student Strings Association, Peking University
+- **<span style="color: var(--global-theme-color); font-weight: bold;">Conductor</span>**: 
+    - *Lead the regular rehearsals, coordinate semiannual auditions, conducted and coordinated eight concerts.*
+    - **[2022-Present]** *Orchestra Conductor*: Symphony Orchestra of Student Strings Association, Peking University
+    - **[2024-Present]** *Chorus Conductor*: Yuanpei Acoustic Chamber Choir, Peking University
+    - **[2024-Present]** *Chorus Conductor*: Retirees Choir, Peking University (\$40/hr earned)
+    - **[2024-2025]** *President*: Student Strings Association, Peking University
+    - **[2023-2024]** *Director*: Performance Department of Student Strings Association, Peking University
 
-**<span style="color: var(--global-theme-color); font-weight: bold;">Pianist</span>**: 
+- **<span style="color: var(--global-theme-color); font-weight: bold;">Pianist</span>**: 
 *Taught piano lessons,  interviewed semiannual auditions, and performed as a pianist in four concerts.*
-- **[2023-2024]** *Director*: Performance Department of Piano Association, Peking University
-- **[Fall 2023]** *Piano Instructor*: Advanced Piano Lessons of Piano Association, Peking University
-- **[2022-Present]** *Member*: Performance Department of Piano Association, Peking University
+    - **[2023-2024]** *Director*: Performance Department of Piano Association, Peking University
+    - **[Fall 2023]** *Piano Instructor*: Advanced Piano Lessons of Piano Association, Peking University
+    - **[2022-Present]** *Member*: Performance Department of Piano Association, Peking University
