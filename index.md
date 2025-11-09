@@ -52,7 +52,6 @@ My research interests lie in the intersection of machine learning, scientific co
     - **[2023-2024]** *Director*: Performance Department of Student Strings Association, Peking University
 
 - **<span style="color: var(--global-theme-color); font-weight: bold;">Pianist</span>**: 
-
 *Taught piano lessons,  interviewed semiannual auditions, and performed as a pianist in four concerts.*
     - **[2023-2024]** *Director*: Performance Department of Piano Association, Peking University
     - **[Fall 2023]** *Piano Instructor*: Advanced Piano Lessons of Piano Association, Peking University
