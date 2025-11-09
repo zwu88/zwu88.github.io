@@ -21,10 +21,10 @@ My research interests lie in the intersection of machine learning, scientific co
 ## Timeline
 - **[2025/09]** Invited seminar at the *University of Pennsylvania* on my research (host: Prof. *Paris Perdikaris*).
 - **[2025/08]** Invited talk at *Yale University* on *TANTE* (host: Prof. *Lu Lu*).
-- **[2025/07]** *COAST: Intelligent Time-Adaptive Neural Operators* accepted to [AI4Math@ICML 2025](https://openreview.net/forum?id=cz99ALd3yv).
-- **[2025/05]** Posted *TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion* on [arXiv](https://arxiv.org/abs/2502.08574).
+- **[2025/07]** *"COAST: Intelligent Time-Adaptive Neural Operators"* accepted to [AI4Math@ICML 2025](https://openreview.net/forum?id=cz99ALd3yv).
+- **[2025/05]** Posted *"TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion"* on [arXiv](https://arxiv.org/abs/2502.08574).
 - **[2025/04]** Invited talk at *Yale University* on *COAST* (host: Prof. *Lu Lu*).
-- **[2025/02]** Posted *COAST: Intelligent Time-Adaptive Neural Operators* on arXiv.
+- **[2025/02]** Posted *"COAST: Intelligent Time-Adaptive Neural Operators"* on arXiv.
 - **[2024/11]** Received the *Tan Siu Lin Oversea Exchange Endowment For Undergraduates* (top-10 awardees annually).
 - **[2024/10]** *"Predicting Microbial Community Productivity Based-On Genomic Sequences with Graph Neural Network"* [accepted](https://ieeexplore.ieee.org/abstract/document/10906150).
 - **[2024/08]** Presentation at *Yale University* on my research proposal (host: Prof. *David van Dijk*).
@@ -43,8 +43,7 @@ My research interests lie in the intersection of machine learning, scientific co
 
 ## Apart from research
 
-**<span style="color: var(--global-theme-color); font-weight: bold;">Conductor</span>**
-
+**<span style="color: var(--global-theme-color); font-weight: bold;">Conductor</span>**: 
 *Lead the regular rehearsals, coordinate semiannual auditions, conducted and coordinated eight concerts.*
 - **[2022-Present]** *Orchestra Conductor*: Symphony Orchestra of Student Strings Association, Peking University
 - **[2024-Present]** *Chorus Conductor*: Yuanpei Acoustic Chamber Choir, Peking University
@@ -52,8 +51,7 @@ My research interests lie in the intersection of machine learning, scientific co
 - **[2024-2025]** *President*: Student Strings Association, Peking University
 - **[2023-2024]** *Director*: Performance Department of Student Strings Association, Peking University
 
-**<span style="color: var(--global-theme-color); font-weight: bold;">Pianist</span>**
-
+**<span style="color: var(--global-theme-color); font-weight: bold;">Pianist</span>**: 
 *Taught piano lessons,  interviewed semiannual auditions, and performed as a pianist in four concerts.*
 - **[2023-2024]** *Director*: Performance Department of Piano Association, Peking University
 - **[Fall 2023]** *Piano Instructor*: Advanced Piano Lessons of Piano Association, Peking University
