@@ -43,7 +43,7 @@ My research interests lie in the intersection of machine learning, scientific co
 
 ## Apart from research
 
-*To learn more about my musical work, please visit myvisit my [musical homepage](https://zwu88.github.io/inDmajor/)*
+*To learn more about my musical work, please visit myvisit my [Music Page](https://zwu88.github.io/inDmajor/).*
 
 
 - **<span style="color: var(--global-theme-color); font-weight: bold;">Conductor</span>**: 
