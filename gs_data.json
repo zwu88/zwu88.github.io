@@ -1,0 +1,88 @@
+{
+  "container_type": "Author",
+  "filled": [
+    "basics",
+    "publications",
+    "indices",
+    "counts"
+  ],
+  "scholar_id": "6aaQRzoAAAAJ",
+  "source": "AUTHOR_PROFILE_PAGE",
+  "name": "Zhikai Wu",
+  "url_picture": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=6aaQRzoAAAAJ&citpid=6",
+  "affiliation": "Yuanpei College, Peking University",
+  "organization": 10725744176602846184,
+  "interests": [
+    "AI for Science",
+    "Scientific Machine Learning",
+    "Operator Learning",
+    "Physics-informed Machine Learning"
+  ],
+  "email_domain": "@stu.pku.edu.cn",
+  "citedby": 4,
+  "publications": {
+    "6aaQRzoAAAAJ:sSrBHYA8nusC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "COAST: Intelligent time-adaptive neural operators",
+        "pub_year": "2025",
+        "citation": "2nd AI for Math Workshop@ ICML 2025, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "6aaQRzoAAAAJ:sSrBHYA8nusC",
+      "num_citations": 3,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7589745580209316879",
+      "cites_id": [
+        "7589745580209316879"
+      ]
+    },
+    "6aaQRzoAAAAJ:u5HHmVD_uO8C": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion",
+        "pub_year": "2025",
+        "citation": "arXiv preprint arXiv:2502.08574, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "6aaQRzoAAAAJ:u5HHmVD_uO8C",
+      "num_citations": 1,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=144148732804484368",
+      "cites_id": [
+        "144148732804484368"
+      ]
+    },
+    "6aaQRzoAAAAJ:geHnlv5EZngC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "GeoFunFlow: Geometric Function Flow Matching for Inverse Operator Learning over Complex Geometries",
+        "pub_year": "2025",
+        "citation": "arXiv preprint arXiv:2509.24117, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "6aaQRzoAAAAJ:geHnlv5EZngC",
+      "num_citations": 0
+    },
+    "6aaQRzoAAAAJ:QIV2ME_5wuYC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Predicting Microbial Community Productivity Based-On Genomic Sequences with Graph Neural Network",
+        "pub_year": "2024",
+        "citation": "2024 17th International Congress on Image and Signal Processing, BioMedical …, 2024"
+      },
+      "filled": false,
+      "author_pub_id": "6aaQRzoAAAAJ:QIV2ME_5wuYC",
+      "num_citations": 0
+    }
+  },
+  "citedby5y": 4,
+  "hindex": 1,
+  "hindex5y": 1,
+  "i10index": 0,
+  "i10index5y": 0,
+  "cites_per_year": {},
+  "updated": "2025-12-07T03:37:21.305831Z"
+}
