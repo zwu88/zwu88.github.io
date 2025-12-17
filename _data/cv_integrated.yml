@@ -37,8 +37,8 @@ publications:
     over Complex Geometries'
   authors_latex: S. Wang*, \underline{\textbf{Z. Wu}}*, et al.
   authors_html: S. Wang*, <span class="cv-me">Z. Wu</span>*, et al.
-  venue_latex: Under Review (major revision)
-  venue_html: Under Review (major revision)
+  venue_latex: Under Review
+  venue_html: Under Review
 - title: Predicting Microbial Community Productivity Based-On Genomic Sequences with
     Graph Neural Network
   title_latex: Predicting Microbial Community Productivity Based-On Genomic Sequences
@@ -63,8 +63,8 @@ publications:
   title_html: 'TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion'
   authors_latex: \underline{\textbf{Z. Wu}}, et al.
   authors_html: <span class="cv-me">Z. Wu</span>, et al.
-  venue_latex: Under Review
-  venue_html: Under Review
+  venue_latex: Under Review (major revision)
+  venue_html: Under Review (major revision)
 honors:
 - name: Fan Family Fellowship
   institution: Yale University
