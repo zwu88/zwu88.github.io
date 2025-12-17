@@ -25,8 +25,8 @@ main:
     paper_id: "6aaQRzoAAAAJ:geHnlv5EZngC"
     authors: Sifan Wang<sup>*</sup>, <b><u>Zhikai Wu<sup>*</sup></u></b>, David van Dijk, and Lu Lu
     date: Sep 2025
-    conference_short: Under Review
-    conference: Under Review
+    conference_short: Under Review (major revision)
+    conference: Under Review (major revision)
     pdf: https://arxiv.org/pdf/2509.24117
     # code: 
     bibtex: ./assets/bibs/geofunflow.txt
