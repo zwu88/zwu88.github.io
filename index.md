@@ -62,9 +62,11 @@ My research interests lie in the intersection of machine learning, scientific co
 
 *I also enjoy traveling and exploring different parts of the world. Here are some of the places I’ve visited (outside of China and the U.S.):*
 
-- New Zealand: Queenstown, Auckland *(planned for January 2026!)*
-- Australia: Sydney
-- Turkey: Istanbul
-- Singapore
-- France: Lyon, Paris
-- Switzerland: Geneva, Nyon, Bern, Lausanne, Interlaken, Zurich, Lucerne
+- **New Zealand:** Queenstown, Auckland *(planned for January 2026!)*
+- **Australia:** Sydney
+- **Turkey:** Istanbul
+- **Singapore**
+- **France:** Lyon, Paris
+- **Switzerland:** Geneva, Nyon, Bern, Lausanne, Interlaken, Zurich, Lucerne
+
+Feel free to reach out if you’d like travel tips for any of these cities, or have suggestions for my future trips. Travel posts are coming soon!
