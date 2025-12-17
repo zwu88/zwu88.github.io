@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I'm a forth-year undergraduate student at [Yuanpei College](https://yuanpei.pku.edu.cn/en/aboutyuanpei/collegeprofile/index.htm), [Peking University](https://english.pku.edu.cn/). From August 2024 to October 2025, I worked as a research assistant at Yale University under the supervision of Prof. [Lu Lu](https://lugroup.yale.edu/) and Prof. [David van Dijk](https://www.vandijklab.org/), completing two projects on operator learning. Since September 2025, I have been working with Prof. [Paris Perdikaris](https://ai4science.seas.upenn.edu/) at the University of Pennsylvania, leading a self-initiated research project.
+I'm a forth-year undergraduate student at [Yuanpei College](https://yuanpei.pku.edu.cn/en/aboutyuanpei/collegeprofile/index.htm), [Peking University](https://english.pku.edu.cn/). From August 2024 to October 2025, I worked as a research assistant at Yale University advised by Prof. [Lu Lu](https://lugroup.yale.edu/) and Prof. [David van Dijk](https://www.vandijklab.org/), completing two projects on operator learning. Since September 2025, I have been working with Prof. [Paris Perdikaris](https://ai4science.seas.upenn.edu/) at the University of Pennsylvania, leading a self-initiated research project.
 
 My research interests lie in the intersection of machine learning, scientific computing, and computational physics. I am particularly interested in developing scalable and robust algorithms for solving partial differential equations, and leveraging these algorithms to solve challenging problems in science and engineering.
 
@@ -13,7 +13,7 @@ My research interests lie in the intersection of machine learning, scientific co
 - **[Oct 2025]** Submitted *<span style="color: var(--global-theme-color);">TANTE</span>* to [Journal of Computational Physics](https://track.authorhub.elsevier.com/?uuid=58e8c1e5-4918-4bd8-a023-0b4f7cf889d6).
 - **[Sep 2025]** Released *<span style="color: var(--global-theme-color);">TANTE</span>* code as [open-source](https://github.com/zwu88/TANTE).
 - **[Sep 2025]** Posted *<span style="color: var(--global-theme-color);">"GeoFunFlow: Geometric Function Flow Matching for Inverse Operator Learning over Complex Geometries"</span>* on [arXiv](https://arxiv.org/abs/2509.24117).
-- **[Sep 2025]** Joined the *<span style="color: var(--global-theme-color);">University of Pennsylvania</span>* as a Research Assistant (surpervised by Prof. *<span style="color: var(--global-theme-color);">Paris Perdikaris</span>*).
+- **[Sep 2025]** Joined the *<span style="color: var(--global-theme-color);">University of Pennsylvania</span>* as a Research Assistant (advised by Prof. *<span style="color: var(--global-theme-color);">Paris Perdikaris</span>*).
 
 {% include_relative _includes/selected_publications.md %}
 {% include_relative _includes/publications.md %}
@@ -59,3 +59,12 @@ My research interests lie in the intersection of machine learning, scientific co
     - **[2023-2024]** *Director*: Performance Department of Piano Association, Peking University
     - **[Fall 2023]** *Piano Instructor*: Advanced Piano Lessons of Piano Association, Peking University
     - **[2022-Present]** *Member*: Performance Department of Piano Association, Peking University
+
+*I also enjoy traveling and exploring different parts of the world. Here are some of the places I’ve visited (outside of China and the U.S.):*
+
+- New Zealand: Queenstown, Auckland *(planned for January 2026!)*
+- Australia: Sydney
+- Turkey: Istanbul
+- Singapore
+- France: Lyon, Paris
+- Switzerland: Geneva, Nyon, Bern, Lausanne, Interlaken, Zurich, Lucerne
