@@ -23,7 +23,7 @@ My research interests lie in the partial differential equations (PDE) and their 
 - **[2025/05]** Posted *"TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion"* on [arXiv](https://arxiv.org/abs/2502.08574).
 - **[2025/04]** Invited online talk at Yale University on my paper (host: Prof. *Lu Lu*).
 - **[2024/08]** Presentation at Yale University on my research proposal (host: Prof. *David van Dijk*).
-- **[2024/08]** Joined Yale University as a Research Assistant (advised by Prof. *Lu Lu* and Prof. *David van Dijk*).
+- **[2024/08]** Joined Yale University as a research assistant (advised by Prof. *Lu Lu* and Prof. *David van Dijk*).
 - **[2024/07]** Attended the Summer Programme on International Affairs at the *Geneva Graduate Institute* *(Geneva, Switzerland)*.
 
 
