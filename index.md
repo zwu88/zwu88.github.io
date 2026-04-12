@@ -11,7 +11,6 @@ My research interests lie in the intersection of partial differential equations 
 ## News
 - **[Feb 2026]** Admitted by [Courant Institute, NYU](https://cims.nyu.edu/) as a PhD student in Data Science, advised by Prof. [Zongyi Li](https://zongyi-li.github.io/).
 - **[Nov 2025]** [GRE Mathematics Subject Test](https://www.ets.org/gre/test-takers/subject-tests/about/content-structure.html#accordion-792530b110-item-ab30804f15): *<span style="color: var(--global-theme-color);">930/990</span>* (higher than *<span style="color: var(--global-theme-color);">94%</span>* of test takers).
-- **[Sep 2025]** Released *<span style="color: var(--global-theme-color);">TANTE</span>* code as [open-source](https://github.com/zwu88/TANTE).
 - **[Sep 2025]** Posted *<span style="color: var(--global-theme-color);">"GeoFunFlow: Geometric Function Flow Matching for Inverse Operator Learning over Complex Geometries"</span>* on [arXiv](https://arxiv.org/abs/2509.24117).
 - **[Sep 2025]** Joined the *<span style="color: var(--global-theme-color);">University of Pennsylvania</span>* as an online research assistant (advised by Prof. *<span style="color: var(--global-theme-color);">Paris Perdikaris</span>*).
 
