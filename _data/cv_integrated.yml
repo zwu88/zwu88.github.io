@@ -51,13 +51,6 @@ publications:
     Engineering and Informatics
   venue_html: 2024 17th International Congress on Image and Signal Processing, BioMedical
     Engineering and Informatics
-- title: 'COAST: Intelligent Time-Adaptive Neural Operators'
-  title_latex: 'COAST: Intelligent Time-Adaptive Neural Operators'
-  title_html: 'COAST: Intelligent Time-Adaptive Neural Operators'
-  authors_latex: \underline{\textbf{Z. Wu}}, et al.
-  authors_html: <span class="cv-me">Z. Wu</span>, et al.
-  venue_latex: ICML 2025 Workshop on AI4Math (Poster)
-  venue_html: ICML 2025 Workshop on AI4Math (Poster)
 - title: 'TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion'
   title_latex: 'TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion'
   title_html: 'TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion'
