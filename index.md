@@ -12,18 +12,18 @@ My research interests lie in the partial differential equations (PDE) and its da
 - **[Feb 2026]** Admitted by [Courant Institute, NYU](https://cims.nyu.edu/) as a PhD student in Data Science, advised by Prof. [Zongyi Li](https://zongyi-li.github.io/).
 - **[Nov 2025]** [GRE Mathematics Subject Test](https://www.ets.org/gre/test-takers/subject-tests/about/content-structure.html#accordion-792530b110-item-ab30804f15): *<span style="color: var(--global-theme-color);">930/990</span>* (higher than *<span style="color: var(--global-theme-color);">94%</span>* of test takers).
 - **[Sep 2025]** Posted *<span style="color: var(--global-theme-color);">"GeoFunFlow: Geometric Function Flow Matching for Inverse Operator Learning over Complex Geometries"</span>* on [arXiv](https://arxiv.org/abs/2509.24117).
-- **[Sep 2025]** Joined the *<span style="color: var(--global-theme-color);">University of Pennsylvania</span>* as an online research assistant (advised by Prof. *<span style="color: var(--global-theme-color);">Paris Perdikaris</span>*).
+- **[Sep 2025]** Joined the University of Pennsylvania</span> as an online research assistant (advised by Prof. *<span style="color: var(--global-theme-color);">Paris Perdikaris</span>*).
 
 {% include_relative _includes/selected_publications.md %}
 {% include_relative _includes/publications.md %}
 
 ## Timeline
-- **[2025/09]** Invited seminar at the *University of Pennsylvania* on my research (host: Prof. *Paris Perdikaris*).
-- **[2025/08]** Invited talk at *Yale University* on my paper (host: Prof. *Lu Lu*).
+- **[2025/09]** Invited seminar at the University of Pennsylvania on my research (host: Prof. *Paris Perdikaris*).
+- **[2025/08]** Invited talk at Yale University on my paper (host: Prof. *Lu Lu*).
 - **[2025/05]** Posted *"TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion"* on [arXiv](https://arxiv.org/abs/2502.08574).
-- **[2025/04]** Invited talk at *Yale University* on my paper (host: Prof. *Lu Lu*).
-- **[2024/08]** Presentation at *Yale University* on my research proposal (host: Prof. *David van Dijk*).
-- **[2024/08]** Joined *Yale University* as a Research Assistant (advised by Prof. *Lu Lu* and Prof. *David van Dijk*).
+- **[2025/04]** Invited online talk at Yale University on my paper (host: Prof. *Lu Lu*).
+- **[2024/08]** Presentation at Yale University on my research proposal (host: Prof. *David van Dijk*).
+- **[2024/08]** Joined Yale University as a Research Assistant (advised by Prof. *Lu Lu* and Prof. *David van Dijk*).
 - **[2024/07]** Attended the Summer Programme on International Affairs at the *Geneva Graduate Institute* *(Geneva, Switzerland)*.
 
 
