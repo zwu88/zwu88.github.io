@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I'm a forth-year undergraduate student at [Yuanpei College](https://yuanpei.pku.edu.cn/en/aboutyuanpei/collegeprofile/index.htm), [Peking University](https://english.pku.edu.cn/). From August 2024 to October 2025, I worked as a research assistant at Yale University advised by Prof. [Lu Lu](https://lugroup.yale.edu/) and Prof. [David van Dijk](https://www.vandijklab.org/), completing two research projects. Since September 2025, I have been working online with Prof. [Paris Perdikaris](https://ai4science.seas.upenn.edu/) at the University of Pennsylvania, leading a self-initiated research project.
+I'm a forth-year undergraduate student at [Yuanpei College](https://yuanpei.pku.edu.cn/en/aboutyuanpei/collegeprofile/index.htm), [Peking University](https://english.pku.edu.cn/). From August 2024 to September 2025, I worked as a research assistant at Yale University advised by Prof. [Lu Lu](https://lugroup.yale.edu/) and Prof. [David van Dijk](https://www.vandijklab.org/), completing two research projects. Since September 2025, I have been working online with Prof. [Paris Perdikaris](https://ai4science.seas.upenn.edu/) at the University of Pennsylvania, leading a self-initiated research project.
 
 My research interests lie in the partial differential equations (PDE) and their data-driven solution operator. 
 
