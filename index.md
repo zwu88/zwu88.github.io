@@ -9,7 +9,7 @@ I'm a forth-year undergraduate student at [Yuanpei College](https://yuanpei.pku.
 My research interests lie in the partial differential equations (PDEs) and their data-driven solution operator. 
 
 ## News
-- **[May 2026]** My paper *"TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion"* was accepted by the [Journal of Computational Physics](https://doi.org/10.1016/j.jcp.2026.115041).
+- **[May 2026]** *"TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion"* accepted by the [Journal of Computational Physics](https://doi.org/10.1016/j.jcp.2026.115041).
 - **[Feb 2026]** Admitted by [Courant Institute, NYU](https://cims.nyu.edu/) as a PhD student in Data Science, advised by Prof. [Zongyi Li](https://zongyi-li.github.io/).
 - **[Nov 2025]** [GRE Mathematics Subject Test](https://www.ets.org/gre/test-takers/subject-tests/about/content-structure.html#accordion-792530b110-item-ab30804f15): 930/990 (higher than 94% of test takers).
 - **[Sep 2025]** Joined the University of Pennsylvania as an online research assistant (advised by Prof. *<span style="color: var(--global-theme-color);">Paris Perdikaris</span>*).
