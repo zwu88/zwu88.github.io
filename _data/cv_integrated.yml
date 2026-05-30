@@ -29,6 +29,13 @@ education:
   - - GPA
     - 4.0 / 4.0
 publications:
+- title: 'TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion'
+  title_latex: 'TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion'
+  title_html: 'TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion'
+  authors_latex: \underline{\textbf{Z. Wu}}, et al.
+  authors_html: <span class="cv-me">Z. Wu</span>, et al.
+  venue_latex: Journal of Computational Physics
+  venue_html: Journal of Computational Physics
 - title: 'GeoFunFlow: Geometric Function Flow Matching for Inverse Operator Learning
     over Complex Geometries'
   title_latex: 'GeoFunFlow: Geometric Function Flow Matching for Inverse Operator
@@ -37,25 +44,6 @@ publications:
     over Complex Geometries'
   authors_latex: S. Wang*, \underline{\textbf{Z. Wu}}*, et al.
   authors_html: S. Wang*, <span class="cv-me">Z. Wu</span>*, et al.
-  venue_latex: Under Review
-  venue_html: Under Review
-- title: Predicting Microbial Community Productivity Based-On Genomic Sequences with
-    Graph Neural Network
-  title_latex: Predicting Microbial Community Productivity Based-On Genomic Sequences
-    with Graph Neural Network
-  title_html: Predicting Microbial Community Productivity Based-On Genomic Sequences
-    with Graph Neural Network
-  authors_latex: J. Hou, P. X. Geng, \underline{\textbf{Z. Wu}}, et al.
-  authors_html: J. Hou, P. X. Geng, <span class="cv-me">Z. Wu</span>, et al.
-  venue_latex: 2024 17th International Congress on Image and Signal Processing, BioMedical
-    Engineering and Informatics
-  venue_html: 2024 17th International Congress on Image and Signal Processing, BioMedical
-    Engineering and Informatics
-- title: 'TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion'
-  title_latex: 'TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion'
-  title_html: 'TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion'
-  authors_latex: \underline{\textbf{Z. Wu}}, et al.
-  authors_html: <span class="cv-me">Z. Wu</span>, et al.
   venue_latex: Under Review
   venue_html: Under Review
 honors:
