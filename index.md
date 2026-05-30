@@ -40,7 +40,7 @@ My research interests lie in the partial differential equations (PDEs) and their
 
 - **<span style="color: var(--global-theme-color); font-weight: bold;">Conductor</span>**: 
 *Lead the regular rehearsals, coordinate semiannual auditions, conducted and coordinated eight concerts.*
-    - **[2022-Present]** *Orchestra Conductor*: Symphony Orchestra of Student Strings Association, Peking University
+    - **[2022-2026]** *Orchestra Conductor*: Symphony Orchestra of Student Strings Association, Peking University
     - **[2024-Present]** *Chorus Conductor*: Yuanpei Acoustic Chamber Choir, Peking University
     - **[2024-Present]** *Chorus Conductor*: Retirees Choir, Peking University (\$40/hr earned)
     - **[2024-2025]** *President*: Student Strings Association, Peking University
