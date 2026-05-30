@@ -35,7 +35,7 @@ My research interests lie in the partial differential equations (PDEs) and their
 
 ## Apart from research
 
-*To learn more about my musical work, please visit my [Music Page](https://zwu88.github.io/inDmajor/).*
+*To learn more about my musical career, please visit my [Music Page](https://zwu88.github.io/inDmajor/).*
 
 
 - **<span style="color: var(--global-theme-color); font-weight: bold;">Conductor</span>**: 
