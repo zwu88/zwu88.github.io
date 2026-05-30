@@ -869,12 +869,11 @@
       }
     </style>
     
-    <!-- Random Avatar Script -->
+    <!-- Random Avatar Script '{{ "/assets/img/avatars/sydney_sea.jpg" | relative_url }}', -->
     <script>
       document.addEventListener('DOMContentLoaded', function() {
         const avatarImages = [
           '{{ "/assets/img/avatars/formal_head.jpg" | relative_url }}',
-          '{{ "/assets/img/avatars/sydney_sea.jpg" | relative_url }}',
         ];
         
         const randomIndex = Math.floor(Math.random() * avatarImages.length);
