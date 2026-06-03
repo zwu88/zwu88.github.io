@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I'm a forth-year undergraduate student at [Yuanpei College](https://yuanpei.pku.edu.cn/en/aboutyuanpei/collegeprofile/index.htm), [Peking University](https://english.pku.edu.cn/). From August 2024 to September 2025, I worked as a research assistant at Yale University advised by Prof. [Lu Lu](https://lugroup.yale.edu/) and Prof. [David van Dijk](https://www.vandijklab.org/), completing two research projects. Since September 2025, I have been working online with Prof. [Paris Perdikaris](https://ai4science.seas.upenn.edu/) at the University of Pennsylvania, leading a self-initiated research project.
+I'm a forth-year undergraduate student at [Yuanpei College](https://yuanpei.pku.edu.cn/en/aboutyuanpei/collegeprofile/index.htm), [Peking University](https://english.pku.edu.cn/). From August 2024 to September 2025, I worked as a research assistant at Yale University advised by Prof. [Lu Lu](https://lugroup.yale.edu/) and Prof. [David van Dijk](https://www.vandijklab.org/), completing two research projects. Since September 2025, I have been working with Prof. [Paris Perdikaris](https://ai4science.seas.upenn.edu/) at the University of Pennsylvania, leading a self-initiated research project.
 
 My research interests lie in the partial differential equations (PDEs) and their data-driven solution operator. 
 
@@ -12,7 +12,7 @@ My research interests lie in the partial differential equations (PDEs) and their
 - **[May 2026]** *"TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion"* accepted by the [Journal of Computational Physics](https://doi.org/10.1016/j.jcp.2026.115041).
 - **[Feb 2026]** Admitted by [Courant Institute, NYU](https://cims.nyu.edu/) as a PhD student in Data Science, advised by Prof. [Zongyi Li](https://zongyi-li.github.io/).
 - **[Nov 2025]** [GRE Mathematics Subject Test](https://www.ets.org/gre/test-takers/subject-tests/about/content-structure.html#accordion-792530b110-item-ab30804f15): 930/990 (higher than 94% of test takers).
-- **[Sep 2025]** Joined the University of Pennsylvania as an online research assistant (advised by Prof. *<span style="color: var(--global-theme-color);">Paris Perdikaris</span>*).
+- **[Sep 2025]** Joined the University of Pennsylvania as a research assistant (advised by Prof. *<span style="color: var(--global-theme-color);">Paris Perdikaris</span>*).
 
 {% include_relative _includes/selected_publications.md %}
 {% include_relative _includes/publications.md %}
