@@ -21,7 +21,7 @@ My research interests lie in the partial differential equations (PDEs) and their
 - **[2025/09]** Posted *"GeoFunFlow: Geometric Function Flow Matching for Inverse Operator Learning over Complex Geometries"* on [arXiv](https://arxiv.org/abs/2509.24117).
 - **[2025/09]** Invited seminar at the University of Pennsylvania on my research (host: Prof. *Paris Perdikaris*).
 - **[2025/08]** Invited talk at Yale University on my paper (host: Prof. *Lu Lu*).
-- **[2025/04]** Invited online talk at Yale University on my paper (host: Prof. *Lu Lu*).
+- **[2025/04]** Invited talk at Yale University on my paper (host: Prof. *Lu Lu*).
 - **[2024/08]** Presentation at Yale University on my research proposal (host: Prof. *David van Dijk*).
 - **[2024/08]** Joined Yale University as a research assistant (advised by Prof. *Lu Lu* and Prof. *David van Dijk*).
 - **[2024/07]** Attended the Summer Programme on International Affairs at the *Geneva Graduate Institute* *(Geneva, Switzerland)*.
