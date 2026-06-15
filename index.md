@@ -13,12 +13,12 @@ My research interests lie in the intersection of machine learning, scientific co
 - **[May 2026]** *"TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion"* accepted by the [Journal of Computational Physics](https://doi.org/10.1016/j.jcp.2026.115041).
 - **[Feb 2026]** Admitted by [Courant Institute, NYU](https://cims.nyu.edu/) as a PhD student in Data Science, advised by Prof. [Zongyi Li](https://zongyi-li.github.io/).
 - **[Nov 2025]** [GRE Mathematics Subject Test](https://www.ets.org/gre/test-takers/subject-tests/about/content-structure.html#accordion-792530b110-item-ab30804f15): 930/990 (higher than 94% of test takers).
-- **[Sep 2025]** Joined the University of Pennsylvania as a research assistant (advised by Prof. *<span style="color: var(--global-theme-color);">Paris Perdikaris</span>*).
 
 {% include_relative _includes/selected_publications.md %}
 {% include_relative _includes/publications.md %}
 
 ## Timeline
+- **[2025/09]** Joined the University of Pennsylvania as a research assistant (advised by Prof. *Paris Perdikaris*).
 - **[2025/09]** Posted *"GeoFunFlow: Geometric Function Flow Matching for Inverse Operator Learning over Complex Geometries"* on [arXiv](https://arxiv.org/abs/2509.24117).
 - **[2025/09]** Invited seminar at the University of Pennsylvania on my research (host: Prof. *Paris Perdikaris*).
 - **[2025/08]** Invited talk at Yale University on my paper (host: Prof. *Lu Lu*).
