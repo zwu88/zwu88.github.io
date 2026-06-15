@@ -9,6 +9,7 @@ I'm a forth-year undergraduate student at [Yuanpei College](https://yuanpei.pku.
 My research interests lie in the intersection of machine learning, scientific computing, and computational physics. I am particularly interested in developing scalable and robust neural operators for solving partial differential equations, and leveraging them to solve challenging problems in science and engineering.
 
 ## News
+- **[Jun 2026]** Invited talk at Tsinghua University on my paper (2nd AI4Science Beijing Meetup).
 - **[May 2026]** *"TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion"* accepted by the [Journal of Computational Physics](https://doi.org/10.1016/j.jcp.2026.115041).
 - **[Feb 2026]** Admitted by [Courant Institute, NYU](https://cims.nyu.edu/) as a PhD student in Data Science, advised by Prof. [Zongyi Li](https://zongyi-li.github.io/).
 - **[Nov 2025]** [GRE Mathematics Subject Test](https://www.ets.org/gre/test-takers/subject-tests/about/content-structure.html#accordion-792530b110-item-ab30804f15): 930/990 (higher than 94% of test takers).
