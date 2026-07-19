@@ -1,0 +1,68 @@
+{
+  "container_type": "Author",
+  "filled": [
+    "basics",
+    "publications",
+    "indices",
+    "counts"
+  ],
+  "scholar_id": "6aaQRzoAAAAJ",
+  "source": "AUTHOR_PROFILE_PAGE",
+  "name": "Zhikai Wu",
+  "url_picture": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=6aaQRzoAAAAJ&citpid=6",
+  "affiliation": "PhD student, Courant Institute, New York University",
+  "organization": 17630047345716507964,
+  "interests": [
+    "PDE",
+    "Operator Learning",
+    "Complex Geometry"
+  ],
+  "email_domain": "@nyu.edu",
+  "homepage": "https://zwu88.github.io/",
+  "citedby": 15,
+  "publications": {
+    "6aaQRzoAAAAJ:LPZeul_q3PIC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Tante: Time-adaptive operator learning via neural taylor expansion",
+        "pub_year": "2026",
+        "citation": "Journal of Computational Physics 562, 115041, 2026"
+      },
+      "filled": false,
+      "author_pub_id": "6aaQRzoAAAAJ:LPZeul_q3PIC",
+      "num_citations": 10,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=144148732804484368,11476977264060908412",
+      "cites_id": [
+        "144148732804484368",
+        "11476977264060908412"
+      ]
+    },
+    "6aaQRzoAAAAJ:geHnlv5EZngC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "GeoFunFlow: Geometric Function Flow Matching for Inverse Operator Learning over Complex Geometries",
+        "pub_year": "2025",
+        "citation": "arXiv preprint arXiv:2509.24117, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "6aaQRzoAAAAJ:geHnlv5EZngC",
+      "num_citations": 5,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18154905368663210644",
+      "cites_id": [
+        "18154905368663210644"
+      ]
+    }
+  },
+  "citedby5y": 15,
+  "hindex": 2,
+  "hindex5y": 2,
+  "i10index": 1,
+  "i10index5y": 1,
+  "cites_per_year": {
+    "2025": 4,
+    "2026": 11
+  },
+  "updated": "2026-07-19T05:23:14.528023Z"
+}
