@@ -30,10 +30,14 @@ My research interests lie in the intersection of machine learning, scientific co
 
 
 ## Services
-- **<span style="color: var(--global-theme-color); font-weight: bold;">Journal Reviewer:</span>**
+- **<span style="color: var(--global-theme-color); font-weight: bold;">Journal & Conference Reviewer:</span>**
     - Engineering with Computers
     - Computational and Applied Mathematics (COAM)
     - Journal of Medical Internet Research (JMIR)
+    - SciPy 2026 Proceedings
+    - NeurIPS 2025 (Ethics Review)
+    - ICML 2025 Workshop: AI4Math
+    - ICLR 2025 Workshops: FM-Wild, AI4CHL
 
 ## Apart from research
 
