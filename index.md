@@ -20,7 +20,7 @@ My research interests lie in the intersection partial differential equations, op
 ## Timeline
 - **[2025/11]** GRE Mathematics Subject Test: 930/990 (higher than 94% of test takers).
 - **[2025/09]** Joined the University of Pennsylvania as a research assistant (advised by Prof. *Paris Perdikaris*).
-- **[2025/09]** Posted *"GeoFunFlow: Geometric Function Flow Matching for Inverse Operator Learning over Complex Geometries"* on [arXiv](https://arxiv.org/abs/2509.24117).
+- **[2025/09]** Posted *"GeoFunFlow: Geometric Function Flow Matching for Inverse Operator Learning over Complex Geometries"* on [arXiv](https://arxiv.org/abs/2509.24117v1).
 - **[2025/09]** Invited seminar at the University of Pennsylvania on my research (host: Prof. *Paris Perdikaris*).
 - **[2025/08]** Invited talk at Yale University on my paper (host: Prof. *Lu Lu*).
 - **[2025/04]** Invited talk at Yale University on my paper (host: Prof. *Lu Lu*).
@@ -31,8 +31,9 @@ My research interests lie in the intersection partial differential equations, op
 ## Services
 - **<span style="color: var(--global-theme-color); font-weight: bold;">Journal & Conference Reviewer:</span>**
     - Engineering with Computers
-    - Computational and Applied Mathematics (COAM)
-    - Journal of Medical Internet Research (JMIR)
+    - Computational and Applied Mathematics
+    - Journal of Medical Internet Research
+    - Machine Learning and the Physical Sciences Workshop 2026
     - SciPy 2026 Proceedings
     - NeurIPS 2025 (Ethics Review)
     - ICML 2025 Workshop: AI4Math

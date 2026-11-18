@@ -1,7 +1,7 @@
 # Publications data for the website
 main:
-  - title: "TANTE: Time-Adaptive Operator Learning via Neural Taylor Expansion"
-    alt_title: "Time-Adaptive Operator Learning via Neural Taylor Expansion"
+  - title: "TANTE: Time-adaptive operator learning via neural Taylor expansion"
+    alt_title: "Time-adaptive operator learning via neural Taylor expansion"
     paper_id: "6aaQRzoAAAAJ:LPZeul_q3PIC"
     authors: <b><u>Zhikai Wu</u></b>, Sifan Wang, Shiyang Zhang, Sizhuang He, Min Zhu, Anran Jiao, Lu Lu, and David van Dijk
     date: May 2026
@@ -20,11 +20,11 @@ main:
     summary: "We propose Time-Adaptive Transformer with Neural Taylor Expansion (TANTE), a novel operator-learning framework that produces continuous-time predictions for with adaptive step sizes. We demonstrate the effectiveness of TANTE across four challenging PDE benchmarks, achieving superior accuracy and adaptability compared to fixed-step baselines, delivering accuracy gains of 60-80% and speed-ups of 30-40% at inference time."
     full_abstract: "Operator learning for time-dependent partial differential equations (PDEs) has seen rapid progress in recent years, enabling efficient approximation of complex spatiotemporal dynamics. However, most existing methods rely on fixed time step sizes during rollout, which limits their ability to adapt to varying temporal complexity and often leads to error accumulation. Here, we propose the Time-Adaptive Transformer with Neural Taylor Expansion (TANTE), a novel operator-learning framework that produces continuous-time predictions with adaptive step sizes. TANTE predicts future states by performing a Taylor expansion at the current state, where neural networks learn both the higher-order temporal derivatives and the local radius of convergence. This allows the model to dynamically adjust its rollout based on the local behavior of the solution, thereby reducing cumulative error and improving computational efficiency. We demonstrate the effectiveness of TANTE across a wide range of PDE benchmarks, achieving superior accuracy and adaptability compared to fixed-step baselines, delivering accuracy gains of 60-80% and speed-ups of 30-40% at inference time. The code is publicly available at https://github.com/zwu88/TANTE for transparency and reproducibility."
   
-  - title: "GeoFunFlow: Geometric Function Flow Matching for Inverse Operator Learning over Complex Geometries"
-    alt_title: "Geometric Function Flow Matching for Inverse Operator Learning over Complex Geometries"
+  - title: "GeoFunFlow: Geometric function flow matching for joint probabilistic inference of physical fields and complex geometries"
+    alt_title: "Geometric function flow matching for joint probabilistic inference of physical fields and complex geometries"
     paper_id: "6aaQRzoAAAAJ:geHnlv5EZngC"
-    authors: Sifan Wang<sup>*</sup>, <b><u>Zhikai Wu<sup>*</sup></u></b>, David van Dijk, and Lu Lu
-    date: Sep 2025
+    authors: Yajie Ji, Sifan Wang, <b><u>Zhikai Wu</u></b>, David van Dijk, and Lu Lu
+    date: Sep 2026
     conference_short: Under Review
     conference: Under Review
     pdf: https://arxiv.org/pdf/2509.24117
@@ -34,7 +34,7 @@ main:
     tags: ["JAX", "Data-driven", "Inverse Problems", "PDEs"]
     selected: false
     summary: "We introduce GeoFunFlow, a geometric diffusion framework that solves PDE inverse problems on complex geometries. GeoFunflow combines a novel geometric functional autoencoder and a latent diffusion model trained via rectified flow, achieving SOTA reconstruction accuracy over complex geometries across benchmarks."
-    full_abstract: "Inverse problems governed by partial differential equations (PDEs) are crucial in science and engineering. They are particularly challenging due to ill-posedness, data sparsity, and the added complexity of irregular geometries. Classical PDE-constrained optimization methods are accurate and robust but are computationally expensive, especially when repeated posterior sampling is required. Learning-based approaches improve efficiency and scalability, yet most are designed for regular domains or focus primarily on forward modeling. To fill this gap, we introduce GeoFunFlow, a geometric diffusion framework for inverse problems on complex geometries. GeoFunflow combines a novel geometric functional autoencoder (GeoFAE) and a latent diffusion model trained via rectified flow. GeoFAE employs a Perceiver module to process unstructured meshes of varying sizes and produces continuous reconstructions of solution fields, while the diffusion model enables posterior sampling from sparse and noisy data. Across five standard benchmarks, GeoFunflow achieves state-of-the-art reconstruction accuracy over complex geometries, provides calibrated uncertainty quantification, and delivers efficient inference compared to operator-learning and diffusion baselines." 
+    full_abstract: "Inverse problems governed by partial differential equations (PDEs) arise widely in science and engineering, but are often ill-posed and limited by sparse, noisy observations. In many applications, measurements reveal only part of the physical state, while the domain geometry may also be unknown even though it shapes the observed response. Joint field and geometry inference across varying computational domains and discretizations remains challenging, whereas many existing machine learning approaches are designed for known geometries and deterministic field reconstruction. Here, we introduce GeoFunFlow, a probabilistic framework that unifies field reconstruction on known domains and joint field and geometry inference on unknown domains. GeoFunFlow combines a geometric function autoencoder (GeoFAE) with flow matching in the latent space to model a joint distribution over physical fields and geometries. GeoFAE establishes a common representation across spatial discretizations that captures the relationship between physical fields and domain geometries, with unknown geometry represented by a signed distance function. The resulting representation allows observations to guide both field reconstruction and geometry recovery, while latent rectified flow enables efficient conditional sampling and spatially resolved uncertainty quantification. A calibration procedure further provides geometry uncertainty estimates with interpretable empirical coverage. Across seven benchmarks spanning porous media flow, fluid mechanics, and optical tomography, GeoFunFlow accurately recovers fields and geometries across complex, variable, and unknown domains while quantifying spatially resolved conditional uncertainty." 
 
   # - title: "Predicting Microbial Community Productivity Based-On Genomic Sequences with Graph Neural Network"
   #   paper_id: "6aaQRzoAAAAJ:QIV2ME_5wuYC"
