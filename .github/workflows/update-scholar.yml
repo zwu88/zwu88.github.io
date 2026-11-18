@@ -2,90 +2,111 @@ name: Update Google Scholar Stats
 
 on:
   schedule:
-    # Run weekly on Sundays at 2:00 AM UTC
+    # Weekly, Sundays at 02:00 UTC.
     - cron: '0 2 * * 0'
   push:
-    branches: [ main ]
-  workflow_dispatch:  # Allow manual trigger
+    branches: [main]
+    paths:
+      - '.github/workflows/update-scholar.yml'
+      - 'google_scholar_crawler/**'
+      - 'assets/js/scholar-stats.js'
+      - 'tests/test_scholar_stats.js'
+  workflow_dispatch:
+
+concurrency:
+  group: google-scholar-stats
+  cancel-in-progress: false
 
 jobs:
   update-scholar:
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
     permissions:
       contents: write
+    env:
+      GOOGLE_SCHOLAR_ID: '6aaQRzoAAAAJ'
 
     steps:
-    - name: Checkout main branch
-      uses: actions/checkout@v3
-      with:
-        ref: main
+      - name: Checkout website
+        uses: actions/checkout@v6
+        with:
+          ref: main
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.9'
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: google_scholar_crawler/requirements.txt
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r google_scholar_crawler/requirements.txt
+      - name: Install dependencies
+        run: python -m pip install -r google_scholar_crawler/requirements.txt
 
-    - name: Test basic setup
-      timeout-minutes: 2
-      continue-on-error: true
-      run: |
-        echo "🧪 Testing basic setup..."
-        python -u google_scholar_crawler/test_simple.py || echo "❌ Test failed"
-        echo "✅ Test completed"
-        
-    - name: Run Google Scholar crawler
-      timeout-minutes: 5
-      continue-on-error: true
-      run: |
-        echo "🚀 Starting Google Scholar crawler..."
-        cd google_scholar_crawler
-        python -u simple_crawler.py || echo "❌ Crawler failed, will retry next time"
-        echo "✅ Crawler step completed"
-      env:
-        GOOGLE_SCHOLAR_ID: "6aaQRzoAAAAJ"
+      - name: Test crawler and cache handling
+        run: |
+          python -c "from scholarly import scholarly; assert callable(scholarly.set_timeout) and callable(scholarly.set_retries)"
+          python -m unittest discover -s google_scholar_crawler/tests -v
 
-    - name: Check if data was fetched
-      id: check_data
-      run: |
-        echo "🔍 Checking if data was fetched..."
-        if [ -f "google_scholar_crawler/results/gs_data.json" ]; then
-          echo "✅ Data file found!"
-          echo "📊 Data contents:"
-          cat google_scholar_crawler/results/gs_data.json | head -20
-          echo "data_exists=true" >> $GITHUB_OUTPUT
-          # Copy data to google-scholar-stats directory
-          echo "📁 Creating google-scholar-stats directory..."
-          mkdir -p google-scholar-stats
-          echo "📋 Copying data files..."
-          cp google_scholar_crawler/results/gs_data.json google-scholar-stats/
-          cp google_scholar_crawler/results/gs_data_shieldsio.json google-scholar-stats/
-          echo "✅ Data copied successfully"
-        else
-          echo "❌ No data file found"
-          echo "data_exists=false" >> $GITHUB_OUTPUT
-        fi
+      - name: Test statistics rendering
+        run: node tests/test_scholar_stats.js
 
-    - name: Push to google-scholar-stats branch
-      if: steps.check_data.outputs.data_exists == 'true'
-      run: |
-        echo "🚀 Starting git operations..."
-        cd google-scholar-stats
-        echo "📁 Changed to google-scholar-stats directory"
-        echo "🔧 Initializing git repository..."
-        git init
-        echo "👤 Setting git user..."
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        echo "📋 Adding files to git..."
-        git add *.json
-        echo "💾 Committing changes..."
-        git commit -m "Update Google Scholar stats - $(date '+%Y-%m-%d')"
-        echo "🚀 Pushing to google-scholar-stats branch..."
-        git push --force https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:google-scholar-stats
-        echo "✅ Successfully pushed to google-scholar-stats branch!"
+      - name: Restore last published statistics
+        shell: bash
+        run: |
+          stats_dir="$RUNNER_TEMP/scholar-stats"
+          if git ls-remote --exit-code --heads origin google-scholar-stats > "$RUNNER_TEMP/scholar-ref"; then
+            git fetch --depth=1 origin refs/heads/google-scholar-stats:refs/remotes/origin/google-scholar-stats
+            git worktree add --detach "$stats_dir" refs/remotes/origin/google-scholar-stats
+          else
+            status=$?
+            if [ "$status" -ne 2 ]; then
+              exit "$status"
+            fi
+            echo "::notice::No statistics branch exists yet; the first successful fetch will create it."
+            git worktree add --detach "$stats_dir"
+            git -C "$stats_dir" switch --orphan scholar-stats-bootstrap
+          fi
+          if python google_scholar_crawler/simple_crawler.py --validate-only "$stats_dir/gs_data.json"; then
+            cp "$stats_dir/gs_data.json" "$RUNNER_TEMP/scholar-cache.json"
+          elif python google_scholar_crawler/simple_crawler.py --validate-only google_scholar_crawler/results/gs_data.json; then
+            echo "::notice::Using the verified website backup because no valid published cache exists."
+            cp google_scholar_crawler/results/gs_data.json "$RUNNER_TEMP/scholar-cache.json"
+          else
+            echo "::notice::No verified cache exists yet; waiting for a successful Scholar fetch."
+          fi
+
+      - name: Fetch Google Scholar statistics
+        timeout-minutes: 3
+        run: >-
+          python -u google_scholar_crawler/simple_crawler.py
+          --cache-file "$RUNNER_TEMP/scholar-cache.json"
+          --output-dir "$RUNNER_TEMP/scholar-output"
+          --timeout 90
+
+      - name: Validate publication data
+        id: data
+        shell: bash
+        run: |
+          if python google_scholar_crawler/simple_crawler.py --validate-only "$RUNNER_TEMP/scholar-output/gs_data.json"; then
+            echo "publish=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "::warning::No verified Scholar statistics are available. Published data will be left unchanged."
+            echo "publish=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Publish changed statistics
+        if: steps.data.outputs.publish == 'true'
+        shell: bash
+        run: |
+          stats_dir="$RUNNER_TEMP/scholar-stats"
+          cp "$RUNNER_TEMP/scholar-output/gs_data.json" "$stats_dir/gs_data.json"
+          cp "$RUNNER_TEMP/scholar-output/gs_data_shieldsio.json" "$stats_dir/gs_data_shieldsio.json"
+          git -C "$stats_dir" add gs_data.json gs_data_shieldsio.json
+          if git -C "$stats_dir" diff --cached --quiet; then
+            echo "::notice::Statistics are unchanged; keeping the last successful update time."
+            exit 0
+          fi
+          git -C "$stats_dir" -c user.name='github-actions[bot]' \
+            -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
+            commit -m 'Update verified Google Scholar statistics'
+          git -C "$stats_dir" push origin HEAD:refs/heads/google-scholar-stats

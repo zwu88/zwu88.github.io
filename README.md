@@ -34,7 +34,7 @@ This website automatically fetches and displays your Google Scholar statistics w
 ### How It Works
 
 ```
-Daily (2 AM UTC) or on git push
+Weekly (Sunday, 2 AM UTC), on Scholar-code changes, or manually
     ↓
 GitHub Actions triggered
     ↓
@@ -51,21 +51,22 @@ Visitors see updated stats instantly
 
 - **Homepage Statistics**: Total citations, H-index, and last update time
 - **Per-Publication Citations**: Citation count displayed next to each paper
-- **Automatic Timestamps**: Shows when data was last refreshed
+- **Automatic Timestamps**: Shows the last successful fetch time; failed refreshes keep that time unchanged
 
 ### Technical Implementation
 
 Built with [`scholarly`](https://github.com/scholarly-python-package/scholarly) - a Python package that provides clean access to Google Scholar data.
 
 **Key Features:**
-- ✅ Proxy support to avoid rate limiting
+- ✅ Direct requests with a bounded fetch deadline
 - ✅ Unbuffered output for real-time GitHub Actions logs  
-- ✅ Graceful fallback if Scholar is unavailable
-- ✅ 5-minute timeout protection
+- ✅ Validated fallback to the last published data or the verified website backup
+- ✅ 90-second fetch deadline inside a 10-minute workflow
 - ✅ No manual deployment needed
 
 **Files:**
 - Crawler: `google_scholar_crawler/simple_crawler.py`
+- Browser loader: `assets/js/scholar-stats.js` (one request for both sidebar and publication counts)
 - Workflow: `.github/workflows/update-scholar.yml`
 - Data Branch: `google-scholar-stats`
 
@@ -78,7 +79,7 @@ Built with [`scholarly`](https://github.com/scholarly-python-package/scholarly) 
 
 2. The workflow automatically extracts your ID and runs daily
 
-3. That's it! Your stats will update automatically every day.
+3. Set the same ID in `GOOGLE_SCHOLAR_ID` in `.github/workflows/update-scholar.yml`. Statistics are checked weekly and can also be refreshed with the workflow's **Run workflow** button. Google may block automated requests; in that case, the last verified counts and their original timestamp are retained. If no verified data exists, the widget shows unavailable values rather than invented zeros.
 
 ## 🎨 Custom Features
 
@@ -263,7 +264,7 @@ If you want to modify the crawler behavior:
 1. **Local Testing**:
    ```bash
    cd google_scholar_crawler
-   conda create -n scholar-crawler python=3.9
+   conda create -n scholar-crawler python=3.12
    conda activate scholar-crawler
    pip install -r requirements.txt
    GOOGLE_SCHOLAR_ID=your_id python simple_crawler.py
@@ -275,7 +276,7 @@ If you want to modify the crawler behavior:
    - Customize data format
 
 3. **Update Workflow** (`.github/workflows/update-scholar.yml`):
-   - Change schedule (default: daily at 2 AM UTC)
+   - Change schedule (default: Sundays at 2 AM UTC)
    - Modify timeout settings
    - Add notifications
 
@@ -287,7 +288,7 @@ auto_dark_mode: false
 ```
 
 **Disable Google Scholar Stats**:
-Remove or comment out the `loadScholarStats()` call in `_layouts/homepage.html`
+Remove the Scholar statistics markup and the `assets/js/scholar-stats.js` script tag from `_layouts/homepage.html`.
 
 **Disable Publication Tags**:
 Remove the tags section from publications in `_data/publications.yml`
@@ -316,17 +317,24 @@ Remove these lines if you don't need those sections.
 
 ### Google Scholar Stats Not Showing
 
-1. Check that your Google Scholar ID is correct in `_config.yml`
+1. Check that your Google Scholar ID matches in `_config.yml` and the workflow's `GOOGLE_SCHOLAR_ID`
 2. View the GitHub Actions workflow run logs
 3. Check if the `google-scholar-stats` branch exists
-4. Verify the data files exist in that branch
+4. Validate the data with `python google_scholar_crawler/simple_crawler.py --validate-only google_scholar_crawler/results/gs_data.json`. The checked-in snapshot is a verified fallback, not a live fetch.
+5. The workflow uses Ubuntu 24.04 and Python 3.12. Keep the compatible dependencies in `requirements.txt`: `scholarly` imports the pre-v2 `bibtexparser.bibdatabase` API.
+
+Offline checks (no Scholar requests):
+```bash
+python -m unittest discover -s google_scholar_crawler/tests -v
+node tests/test_scholar_stats.js
+```
 
 ### Crawler Timeout
 
 If the crawler times out:
-- Increase timeout in `.github/workflows/update-scholar.yml`
-- The workflow will retry on the next scheduled run
-- Data will fallback to previous values
+- The fetch worker has a 90-second wall-clock deadline; retries cannot run indefinitely.
+- The workflow retries on the next scheduled or manual run.
+- Verified cached counts and their last-success timestamp are preserved. Unchanged cached data does not create another data-branch commit.
 
 ### Local Development
 
