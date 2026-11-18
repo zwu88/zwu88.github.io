@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I'm a first-year PhD student at the [Courant Institute, New York University](https://cims.nyu.edu/), advised by Prof. [Zongyi Li](https://zongyi-li.github.io/). Before joining NYU Courant, I completed my undergraduate studies at [Yuanpei College](https://yuanpei.pku.edu.cn/en/aboutyuanpei/collegeprofile/index.htm), [Peking University](https://english.pku.edu.cn/) in 2026. From 2024 to 2025, I worked as a research assistant at Yale University advised by Prof. [Lu Lu](https://lugroup.yale.edu/). From 2025 to 2026, I worked as a research assistant at the University of Pennsylvania advised by Prof. [Paris Perdikaris](https://ai4science.seas.upenn.edu/). Throughout my research, I also work closely with [Dr. Sifan Wang](https://sifanexisted.github.io/).
+I'm a first-year PhD student at the [Courant Institute, New York University](https://cims.nyu.edu/), advised by Prof. [Zongyi Li](https://zongyi-li.github.io/). Before joining NYU Courant, I completed my undergraduate studies at [Yuanpei College](https://yuanpei.pku.edu.cn/en/aboutyuanpei/collegeprofile/index.htm), [Peking University](https://english.pku.edu.cn/) in 2026. From 2024 to 2025, I worked as a research assistant at Yale University advised by Prof. [Lu Lu](https://lugroup.yale.edu/). From 2025 to 2026, I worked as a research assistant at the University of Pennsylvania advised by Prof. [Paris Perdikaris](https://ai4science.seas.upenn.edu/). Throughout my research, I also work closely with Dr. [Sifan Wang](https://sifanexisted.github.io/).
 
 My research interests lie in the intersection partial differential equations, operator learning, and computational physics.
 
